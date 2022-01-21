@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100%;
+}
+body {
+  font-family: "Circularpro book", sans-serif;
+  /* background-color: #212121; */
+  background-image: url(../assets/asd.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: #212121;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.2rem;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* XX-Large */
+@media (min-width: 1400px) {
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+}
+
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+}
+
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+}

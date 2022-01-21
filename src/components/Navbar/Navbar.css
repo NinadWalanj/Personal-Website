@@ -1,0 +1,607 @@
+/* LINKS */
+.logolink {
+  text-decoration: none;
+  color: white;
+  font-size: 0.938rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+}
+.logolink:hover {
+  text-decoration: none;
+  color: white;
+}
+.link1 {
+  text-decoration: none;
+  color: white;
+  font-size: 0.938rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+}
+.link1:hover {
+  color: white;
+  text-decoration: line-through;
+}
+.link1-active {
+  color: white;
+  text-decoration: none;
+}
+.link2 {
+  text-decoration: none;
+  color: white;
+  font-size: 0.938rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+}
+.link2:hover {
+  color: white;
+  text-decoration: line-through;
+}
+.link2-active {
+  color: white;
+  text-decoration: none;
+}
+.link3 {
+  text-decoration: none;
+  color: white;
+  font-size: 0.938rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.063rem;
+}
+.link3:hover {
+  color: white;
+  text-decoration: line-through;
+}
+.link3-active {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  color: transparent !important;
+  border: none;
+}
+.menu-img {
+  height: 2rem;
+}
+
+/* XX-Large */
+@media (min-width: 1400px) and (max-width: 6000px) {
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-item {
+    width: 10%;
+    display: inline;
+  }
+  .navbar-nav {
+    display: inline;
+  }
+  .link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-top: 1rem;
+    animation-name: test1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test1 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link1:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link1-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test2 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link2:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link2-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link3 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test3 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link3:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link3-active {
+    color: white;
+    text-decoration: none;
+  }
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav-item {
+    width: 10%;
+    display: inline;
+  }
+  .navbar-nav {
+    display: inline;
+  }
+  .link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-top: 1rem;
+    animation-name: test1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test1 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link1:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link1-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test2 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link2:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link2-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link3 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test3 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link3:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link3-active {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+  .Navbar-main-div {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav-item {
+    width: 10%;
+    display: inline;
+  }
+  .navbar-nav {
+    display: inline;
+  }
+  .link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-top: 1rem;
+    animation-name: test1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test1 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link1:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link1-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test2 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link2:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link2-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link3 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test3 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link3:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link3-active {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+  .Navbar-main-div {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav-item {
+    width: 10%;
+    display: inline;
+  }
+  .navbar-nav {
+    display: inline;
+  }
+  .link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-top: 1rem;
+    animation-name: test1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test1 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link1:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link1-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test2 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link2:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link2-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link3 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test3 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link3:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link3-active {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+  .Navbar-main-div {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav-item {
+    width: 10%;
+    display: inline;
+  }
+  .navbar-nav {
+    display: inline;
+  }
+  .link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-top: 1rem;
+    animation-name: test1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test1 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link1:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link1-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test2 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link2:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link2-active {
+    color: white;
+    text-decoration: none;
+  }
+  .link3 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.938rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    animation-name: test3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  @keyframes test3 {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .link3:hover {
+    color: white;
+    text-decoration: line-through;
+  }
+  .link3-active {
+    color: white;
+    text-decoration: none;
+  }
+}

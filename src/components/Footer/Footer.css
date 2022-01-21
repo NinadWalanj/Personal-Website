@@ -1,0 +1,310 @@
+/* XX-Large */
+@media (min-width: 1400px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    margin-left: 1rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    margin-left: 1rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+  .footer-div {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }
+  .footer-div-link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    margin-left: 1rem;
+  }
+  .footer-div-link1:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-div-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .footer-div-link2:hover {
+    color: white;
+    text-decoration: none;
+  }
+}

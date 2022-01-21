@@ -1,0 +1,727 @@
+/* XX-Large */
+@media (min-width: 1400px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 80%;
+  }
+  .about-div-imagediv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 80%;
+  }
+  .about-div-imagediv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 80%;
+  }
+  .about-div-imagediv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 90%;
+  }
+  .about-div-imagediv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 90%;
+  }
+  .about-div-imagediv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second {
+    margin-top: 2rem;
+  }
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 90%;
+  }
+  .about-div-imagediv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second {
+    margin-top: 2rem;
+  }
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 90%;
+  }
+  .about-div-imagediv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second {
+    margin-top: 2rem;
+  }
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+  .about-div {
+    margin-top: 7rem;
+  }
+  .about-div-textdiv {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 90%;
+  }
+  .about-div-imagediv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem;
+    border-radius: 0.5rem;
+    background-image: url("../../assets/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* FIRST TEXT DIV */
+  .about-div-textdiv-first-para1 {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para2 {
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-first-para3 {
+    margin-top: -0.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+
+  /* SECOND TEXT DIV */
+  .about-div-textdiv-second {
+    margin-top: 2rem;
+  }
+  .about-div-textdiv-second-para-subdiv {
+    margin-top: 3rem;
+    height: 2.2rem;
+  }
+  .about-div-textdiv-second-para {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .about-div-textdiv-second-subdiv-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 3%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .about-div-textdiv-second-subdiv-link2 {
+    text-decoration: none;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .about-div-textdiv-second-subdiv-link2:hover {
+    text-decoration: none;
+    color: white;
+  }
+}

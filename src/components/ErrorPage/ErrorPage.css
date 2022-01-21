@@ -1,0 +1,30 @@
+.errorpage {
+  color: white;
+  margin-top: 7rem;
+}
+.errorpage-div-heading {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.errorpage-div-para1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 3rem;
+}
+.errorpage-div-para2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -0.5rem;
+}
+.errorpage-div-button {
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

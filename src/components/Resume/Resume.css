@@ -1,0 +1,166 @@
+.resume {
+  color: #fff;
+  margin-top: 7rem;
+}
+.resume-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.063rem;
+  overflow: hidden;
+}
+.resume-heading span:before,
+.resume-heading span:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
+}
+
+.resume-heading span:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.resume-heading span:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.horizontal-line {
+  width: 95%;
+  height: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+}
+/* workexperience */
+.resume-workexperience {
+  margin-top: 7rem;
+}
+.workexperience-heading {
+  margin-left: 4rem;
+  display: inline-block;
+  font-size: 1.7rem;
+}
+.workexperience-tablediv {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.workexperience-tablediv-2-heading {
+  letter-spacing: 0.063rem;
+}
+.workexperience-tablediv-2-para1 {
+  letter-spacing: 0.063rem;
+  margin-top: 1rem;
+}
+/* subdiv1 */
+.meetemfit-img {
+  height: 5rem;
+  margin-left: 8.5rem;
+}
+/* subdiv2 */
+.jio-img {
+  height: 5rem;
+  margin-left: 8.5rem;
+}
+
+/* Education */
+.resume-education {
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.education-heading {
+  margin-left: 4rem;
+  display: inline-block;
+  font-size: 1.7rem;
+}
+/* subdiv1 */
+.education-tablediv {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.education-tablediv-1 {
+  height: 100%;
+}
+.mu-image {
+  height: 60%;
+  width: 60%;
+  border-radius: 1rem;
+  margin-left: 4rem;
+}
+.education-tablediv-2-heading {
+  letter-spacing: 0.063rem;
+}
+.education-tablediv-2-para1 {
+  margin-top: 1rem;
+  letter-spacing: 0.063rem;
+}
+.education-tablediv-2-para2 {
+  margin-top: 1rem;
+  letter-spacing: 0.063rem;
+}
+
+/* skills */
+.resume-skills {
+  margin-top: 7rem;
+}
+.skills-heading {
+  margin-left: 4rem;
+  display: inline-block;
+  font-size: 1.7rem;
+}
+.skills-maindiv {
+  margin-left: 4.5rem;
+}
+.progress-bar {
+  width: 25%;
+  background-color: #7f7f7f !important;
+  height: 2vh;
+}
+.progress {
+  height: 1vh;
+  background-color: #f3903f !important;
+}
+
+/* subdiv1 */
+.skills-subdiv1 {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+/* subdiv2 */
+.skills-subdiv2 {
+  margin-top: 3rem;
+}
+/* subdiv3 */
+.skills-subdiv3 {
+  margin-top: 3rem;
+}
+/* subdiv4 */
+.skills-subdiv4 {
+  margin-top: 3rem;
+}
+/* subdiv5 */
+.skills-subdiv5 {
+  margin-top: 3rem;
+}
+/* subdiv6 */
+.skills-subdiv6 {
+  margin-top: 3rem;
+}
+/* subdiv7 */
+.skills-subdiv7 {
+  margin-top: 3rem;
+}
+/* subdiv8 */
+.skills-subdiv8 {
+  margin-top: 3rem;
+}
+/* subdiv9 */
+.skills-subdiv9 {
+  margin-top: 3rem;
+}

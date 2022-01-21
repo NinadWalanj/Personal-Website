@@ -1,0 +1,1915 @@
+.contact-div {
+  color: white;
+  margin-top: 7rem;
+}
+
+/* XX-Large */
+@media (min-width: 1400px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 40%;
+  }
+  .contact-subdiv-2 {
+    width: 40%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+  }
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+    font-weight: 400;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.3rem;
+    margin-left: 0.5rem;
+    height: 1.2rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 40%;
+  }
+  .contact-subdiv-2 {
+    width: 40%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+  }
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+    font-weight: 400;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.3rem;
+    margin-left: 0.5rem;
+    height: 1.2rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 40%;
+  }
+  .contact-subdiv-2 {
+    width: 40%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+  }
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+    font-weight: 400;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.3rem;
+    margin-left: 0.5rem;
+    height: 1.2rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 50%;
+  }
+  .contact-subdiv-2 {
+    width: 50%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 50%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 50%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 50%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+  }
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+    font-weight: 400;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    text-decoration: none;
+    border: solid 0.1rem;
+    border-color: white;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: auto;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.3rem;
+    margin-left: 0.5rem;
+    height: 1.2rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+    font-size: 1.4rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 80%;
+  }
+  .contact-subdiv-2 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: transparent;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: white;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.1rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    height: 1rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+    font-size: 1.4rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 80%;
+  }
+  .contact-subdiv-2 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: transparent;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: white;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.1rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    height: 1rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+    font-size: 1.4rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 80%;
+  }
+  .contact-subdiv-2 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: transparent;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: white;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.1rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    height: 1rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+  .contact-div-form-div-subdiv {
+    margin: auto;
+  }
+  .contact-div-form-div-subdiv {
+    margin-top: 3rem;
+  }
+  .contact-div-heading {
+    margin-left: 0.7rem;
+    font-size: 1.4rem;
+  }
+  /* CONTACT DIVS */
+  .contact-subdiv-1 {
+    width: 80%;
+  }
+  .contact-subdiv-2 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-3 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-4 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  .contact-subdiv-5 {
+    margin-top: 1.5rem;
+    width: 80%;
+  }
+  /* INPUTS */
+  .contact-input-1 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-1:focus::placeholder {
+    opacity: 0;
+  }
+
+  .contact-input-2 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-2:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-2:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-3 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-3:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-3:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    color: white;
+  }
+  .contact-input-4:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+  }
+  .contact-input-4:focus::placeholder {
+    opacity: 0;
+  }
+  .contact-input-4::-webkit-inner-spin-button,
+  .contact-input-4::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .contact-input-5 {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    resize: none;
+    color: white;
+  }
+  .contact-input-5:focus {
+    padding: 2%;
+    background-color: #2c2d2d;
+    border-color: #2c2d2d;
+    box-shadow: none;
+    color: white;
+    resize: none;
+  }
+  .contact-input-5:focus::placeholder {
+    opacity: 0;
+  }
+  /* PLACEHOLDER */
+  .contact-input-1::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-2::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-3::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-4::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+  .contact-input-5::placeholder {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  /* BUTTON */
+  .contact-sendButton {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: transparent;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .contact-sendButton:hover {
+    margin-top: 1.5rem;
+    margin-left: 0.9rem;
+    background-color: white;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+
+  /* Validation error */
+  .contact-input-1-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-2-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-3-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-4-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .contact-input-5-error {
+    color: #ef3e59;
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .error-validation-image {
+    margin-top: -0.1rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    height: 1rem;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

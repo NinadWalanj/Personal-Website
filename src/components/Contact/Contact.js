@@ -5,6 +5,8 @@ import { colRef } from "../../Firebase";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import errorimg from "../../assets/error-1.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   //  STATES
@@ -130,7 +132,17 @@ export default function Contact() {
       })
         .then((doc) => {
           console.log("Document written with ID: ", doc.id);
-          alert("Submitted");
+
+          //alert
+          toast.success("Submitted", {
+            position: "top-center",
+            autoClose: 4000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
+          //
 
           // EMAILJS
           var service_id = process.env.REACT_APP_SERVICE_ID;
@@ -327,6 +339,19 @@ export default function Contact() {
             >
               Submit
             </button>
+
+            <ToastContainer
+              toastStyle={{ backgroundColor: "#000000", color: "#FFFFFF" }}
+              position="top-center"
+              autoClose={4000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+            />
           </form>
         </div>
       </div>

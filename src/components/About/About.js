@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
-import aboutImg from "../../assets/about-img.jpg";
-import aboutImg2 from "../../assets/1.jpg";
-import aboutImg3 from "../../assets/2.jpg";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -16,9 +13,7 @@ export default function About() {
     >
       <div className="about-div container">
         {/* IMAGE-DIV */}
-        <div className="about-div-imagediv">
-          {/* <img src={aboutImg2} className="about-pic" alt="my-pic" /> */}
-        </div>
+        <div className="about-div-imagediv"></div>
         {/* TEXT-DIV */}
         <div className="about-div-textdiv row">
           <div className="about-div-textdiv-first col-sm-12 col-md-6 col-lg-6">

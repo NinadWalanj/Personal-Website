@@ -1,0 +1,11 @@
+.delayed-feedback-div {
+  position: relative;
+  top: 50vh;
+  left: 50vw;
+  display: inline-block;
+  z-index: 10000;
+}
+.delayed-feedback-div-para {
+}
+.loader {
+}

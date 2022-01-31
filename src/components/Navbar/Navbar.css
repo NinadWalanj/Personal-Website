@@ -66,6 +66,7 @@
 }
 .menu-img {
   height: 2rem;
+  width: 2rem;
 }
 
 /* XX-Large */
@@ -98,6 +99,7 @@
     animation-name: test1;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test1 {
     from {
@@ -129,6 +131,7 @@
     animation-name: test2;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test2 {
     from {
@@ -160,6 +163,7 @@
     animation-name: test3;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test3 {
     from {
@@ -200,6 +204,7 @@
     animation-name: test1;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test1 {
     from {
@@ -231,6 +236,7 @@
     animation-name: test2;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test2 {
     from {
@@ -262,6 +268,7 @@
     animation-name: test3;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test3 {
     from {
@@ -308,6 +315,7 @@
     animation-name: test1;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test1 {
     from {
@@ -339,6 +347,7 @@
     animation-name: test2;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test2 {
     from {
@@ -370,6 +379,7 @@
     animation-name: test3;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test3 {
     from {
@@ -416,6 +426,7 @@
     animation-name: test1;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test1 {
     from {
@@ -447,6 +458,7 @@
     animation-name: test2;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test2 {
     from {
@@ -478,6 +490,7 @@
     animation-name: test3;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test3 {
     from {
@@ -524,6 +537,7 @@
     animation-name: test1;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test1 {
     from {
@@ -555,6 +569,7 @@
     animation-name: test2;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test2 {
     from {
@@ -586,6 +601,7 @@
     animation-name: test3;
     animation-duration: 0.5s;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   }
   @keyframes test3 {
     from {

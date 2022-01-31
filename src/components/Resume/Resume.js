@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Resume.css";
 import { motion } from "framer-motion";
-import muImage from "../../assets/resume/MU-IMAGE.jpg";
 import jio from "../../assets/resume/jio.png";
 import meetmefit from "../../assets/resume/meetmefit.png";
+import resumeFile from "../../assets/resume/My-resume.pdf";
 
 function Resume() {
   return (
@@ -14,52 +15,57 @@ function Resume() {
       transition={{ duration: 0.5 }}
     >
       <div className="resume container">
-        <h1 className="resume-heading">
+        {/* <h1 className="resume-heading">
           <span>Resume</span>
-        </h1>
+        </h1> */}
 
         {/* work experience */}
         <div className="resume-workexperience ">
           <h4 className="workexperience-heading">Work Experience</h4>
           {/* first subdiv */}
           <div className="workexperience-tablediv row">
-            <div className="workexperience-tablediv-1  col-4">
-              <img src={meetmefit} alt="gg" className="meetemfit-img" />
+            <div className="workexperience-tablediv-1  col-6">
+              <img src={meetmefit} alt="meetmefit" className="meetemfit-img" />
             </div>
             <div className="workexperience-tablediv-2 col">
-              <h4 className="workexperience-tablediv-2-heading">MeetMeFit</h4>
               <p className="workexperience-tablediv-2-para1">
-                Web Development Intern, Oct 2020- Jan 2022
+                October 2020 - January 2022
+              </p>
+              <h4 className="workexperience-tablediv-2-heading">MeetMeFit</h4>
+              <p className="workexperience-tablediv-2-para2">
+                Web Development Intern
               </p>
             </div>
           </div>
 
           {/* second subdiv */}
           <div className="workexperience-tablediv row">
-            <div className="workexperience-tablediv-1  col-4">
-              <img src={jio} alt="gg" className="jio-img" />
+            <div className="workexperience-tablediv-1  col-6">
+              <img src={jio} alt="jio" className="jio-img" />
             </div>
             <div className="workexperience-tablediv-2 col">
+              <p className="workexperience-tablediv-2-para1">
+                June 2021 - July 2021
+              </p>
               <h4 className="workexperience-tablediv-2-heading">
                 Jio Platforms Limited
               </h4>
-              <p className="workexperience-tablediv-2-para1">
-                Web Development Intern, June 2021- July 2021
+              <p className="workexperience-tablediv-2-para2">
+                Web Development Intern
               </p>
             </div>
           </div>
         </div>
 
-        <hr className="horizontal-line" />
         {/* Education */}
-        <div className="resume-education ">
-          <h4 className="education-heading">Education</h4>
+        {/* <div className="resume-education ">
+          <h4 className="education-heading">Education</h4> */}
 
-          {/* first subdiv */}
-          <div className="education-tablediv row">
-            <div className="education-tablediv-1  col-4">
-              <img src={muImage} alt="gg" className="mu-image" />
-            </div>
+        {/* first subdiv */}
+        {/* <div className="education-tablediv row">
+            <div className="education-tablediv-1  col-4"> */}
+        {/* <img src={muImage} alt="mumbai university" className="mu-image" /> */}
+        {/* </div>
             <div className="education-tablediv-2 col">
               <h4 className="education-tablediv-2-heading">
                 Mumbai University
@@ -70,9 +76,7 @@ function Resume() {
               <p className="education-tablediv-2-para2">Mumbai, Maharashtra</p>
             </div>
           </div>
-        </div>
-
-        <hr className="horizontal-line" />
+        </div> */}
 
         {/* skills */}
         <div className="resume-skills">
@@ -81,12 +85,12 @@ function Resume() {
           <div className="skills-maindiv">
             {/* subdiv1 */}
             <div className="skills-subdiv1">
-              <p className="skills-subdiv1-para">HTML5</p>
+              <p className="skills-subdiv1-para">HTML5, CSS3, Javascript</p>
               <div className="progress">
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "100%" }}
+                  style={{ width: "85%" }}
                   aria-valuenow="50"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -96,12 +100,12 @@ function Resume() {
 
             {/* subdiv2 */}
             <div className="skills-subdiv2">
-              <p className="skills-subdiv2-para">CSS3</p>
+              <p className="skills-subdiv2-para">Git</p>
               <div className="progress">
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "90%" }}
+                  style={{ width: "80%" }}
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -111,7 +115,7 @@ function Resume() {
 
             {/* subdiv3 */}
             <div className="skills-subdiv3">
-              <p className="skills-subdiv3-para">Javascript</p>
+              <p className="skills-subdiv3-para">OOP</p>
               <div className="progress">
                 <div
                   className="progress-bar"
@@ -184,6 +188,28 @@ function Resume() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Github */}
+        <div className="resume-github ">
+          <a
+            href="https://github.com/NinadWalanj"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-github-para-link1 "
+          >
+            Github
+          </a>
+
+          <a
+            href={resumeFile}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="resume-github-para-link2 "
+          >
+            Download resume
+          </a>
         </div>
       </div>
     </motion.div>

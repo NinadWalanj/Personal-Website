@@ -25,9 +25,19 @@ export default function About() {
           </div>
           <div className="about-div-textdiv-second col-sm-12 col-md-6 col-lg-6">
             <p className="about-div-textdiv-second-para">
-              Hello, my name is Ninad Walanj. I have a passion of developing new
-              things. I was born in Mumbai, India. Currently I’m a student
-              pursuing my Bachelor’s degree in Information Technology
+              Hi there! I'm Ninad Walanj
+              <span className="about-div-textdiv-second-para-span1">
+                I am an undergrad student pursuing a Bachelor's Degree in the
+                field of Information Technology from the University of Mumbai.
+                Passionate about learning new technologies like Data Science,
+                AWS, etc. I got experience in the field of Web Development that
+                I acquired through internships and by building projects.
+              </span>
+              <span className="about-div-textdiv-second-para-span2">
+                Presently, I am interested in the field of Data Science and
+                studying for the same. Looking for a Data Science/ Data Analyst
+                Intern role.
+              </span>
             </p>
             <div className="about-div-textdiv-second-para-subdiv">
               <Link

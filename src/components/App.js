@@ -1,3 +1,5 @@
+// viewBox="0 0 1366 695"
+
 import React, { lazy, Suspense } from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";

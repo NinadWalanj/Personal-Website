@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Resume.css";
 import { motion } from "framer-motion";
-import jio from "../../assets/resume/jio.png";
-import meetmefit from "../../assets/resume/meetmefit.png";
+import jio from "../../assets/resume/jio-test.svg";
+import meetmefit from "../../assets/resume/test.svg";
 import resumeFile from "../../assets/resume/My-resume.pdf";
 
 function Resume() {
@@ -24,7 +24,7 @@ function Resume() {
           <h4 className="workexperience-heading">Work Experience</h4>
           {/* first subdiv */}
           <div className="workexperience-tablediv row">
-            <div className="workexperience-tablediv-1  col-6">
+            <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
               <img src={meetmefit} alt="meetmefit" className="meetemfit-img" />
             </div>
             <div className="workexperience-tablediv-2 col">
@@ -40,7 +40,7 @@ function Resume() {
 
           {/* second subdiv */}
           <div className="workexperience-tablediv row">
-            <div className="workexperience-tablediv-1  col-6">
+            <div className="workexperience-tablediv-1  col-sm-12 col-md-12 col-lg-6">
               <img src={jio} alt="jio" className="jio-img" />
             </div>
             <div className="workexperience-tablediv-2 col">
@@ -94,6 +94,7 @@ function Resume() {
                   aria-valuenow="50"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="HTML,CSS,JAVASCRIPT"
                 ></div>
               </div>
             </div>
@@ -109,6 +110,7 @@ function Resume() {
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="GIT"
                 ></div>
               </div>
             </div>
@@ -124,6 +126,7 @@ function Resume() {
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="OOP"
                 ></div>
               </div>
             </div>
@@ -139,6 +142,7 @@ function Resume() {
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="REACT"
                 ></div>
               </div>
             </div>
@@ -154,6 +158,7 @@ function Resume() {
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="PYTHON"
                 ></div>
               </div>
             </div>
@@ -169,6 +174,7 @@ function Resume() {
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="MERN"
                 ></div>
               </div>
             </div>
@@ -184,6 +190,7 @@ function Resume() {
                   aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="DATABASES"
                 ></div>
               </div>
             </div>

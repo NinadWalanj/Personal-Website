@@ -8,180 +8,1202 @@
   letter-spacing: 0.063rem;
   overflow: hidden;
 }
+/* XX-Large */
+@media (min-width: 1400px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-2 {
+    margin-left: 2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
 
-/* workexperience */
-.resume-workexperience {
-  margin-top: 7rem;
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .skills-maindiv {
+    margin-left: 1rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.3rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: transparent !important;
+    height: 0.3rem;
+  }
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 45%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
-.workexperience-heading {
-  display: inline-block;
-  font-size: 1.6rem;
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-2 {
+    margin-left: 2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .skills-maindiv {
+    margin-left: 1rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.07rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: white !important;
+    height: 0.07rem;
+  }
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 45%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
-.workexperience-tablediv {
-  margin-top: 6rem;
-  margin-left: auto;
-  margin-right: auto;
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-2 {
+    margin-left: 2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 25rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 25rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .skills-maindiv {
+    margin-left: 1rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.07rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: white !important;
+    height: 0.07rem;
+  }
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 45%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
-.workexperience-tablediv-2 {
-  margin-left: 2rem;
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-1 {
+    margin-left: 2rem;
+  }
+  .workexperience-tablediv-2 {
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .skills-maindiv {
+    margin-left: 1rem;
+    width: 95%;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.07rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: white !important;
+    height: 0.07rem;
+  }
+
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 28%;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
-.workexperience-tablediv-2-heading {
-  letter-spacing: 0.1rem;
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  line-height: 1.25;
-}
-.workexperience-tablediv-2-para1 {
-  letter-spacing: 0.063rem;
-  font-weight: 500;
-}
-.workexperience-tablediv-2-para2 {
-  letter-spacing: 0.063rem;
-  margin-top: 1.5rem;
-}
-/* subdiv1 */
-.meetemfit-img {
-  width: 30rem;
-  height: auto;
-  border-radius: 0.5rem;
-}
-/* subdiv2 */
-.jio-img {
-  width: 30rem;
-  height: auto;
-  border-radius: 0.5rem;
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-1 {
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2 {
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  .skills-maindiv {
+    margin-left: 0.2rem;
+    width: 95%;
+    font-size: 0.9rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.07rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: white !important;
+    height: 0.07rem;
+  }
+
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 26%;
+    font-size: 0.8rem;
+    width: auto;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    width: auto;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    left: 38%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
 
-/* Education */
-.resume-education {
-  margin-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.education-heading {
-  display: inline-block;
-  font-size: 1.6rem;
-}
-/* subdiv1 */
-.education-tablediv {
-  margin-top: 5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.education-tablediv-1 {
-  height: 100%;
-}
-.mu-image {
-  height: 60%;
-  width: 60%;
-  border-radius: 1rem;
-  margin-left: 4rem;
-}
-.education-tablediv-2-heading {
-  letter-spacing: 0.063rem;
-}
-.education-tablediv-2-para1 {
-  margin-top: 1rem;
-  letter-spacing: 0.063rem;
-}
-.education-tablediv-2-para2 {
-  margin-top: 1rem;
-  letter-spacing: 0.063rem;
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-1 {
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2 {
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    line-height: 1.25;
+    font-size: 1.2rem;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.4rem;
+    font-size: 0.9rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 25rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 25rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .skills-maindiv {
+    margin-left: 0.2rem;
+    width: 90%;
+    font-size: 0.9rem;
+    margin-left: 0.9rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.07rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: white !important;
+    height: 0.07rem;
+  }
+
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 23%;
+    font-size: 0.8rem;
+    width: auto;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    width: auto;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
 
-/* skills */
-.resume-skills {
-  margin-top: 10rem;
-}
-.skills-heading {
-  display: inline-block;
-  font-size: 1.6rem;
-}
-.skills-maindiv {
-  margin-left: 1rem;
-}
-.progress-bar {
-  background-color: #f3903f !important;
-  height: 0.07rem;
-}
-.progress {
-  margin-top: 2.5rem;
-  background-color: white !important;
-  height: 0.07rem;
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-1 {
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2 {
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    font-size: 1.2rem;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.4rem;
+    font-size: 0.9rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 20rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 20rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .skills-maindiv {
+    margin-left: 0.2rem;
+    width: 90%;
+    font-size: 0.9rem;
+    margin-left: 0.9rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.07rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: transparent !important;
+    height: 0.09rem;
+  }
+
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 16%;
+    font-size: 0.8rem;
+    width: auto;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    width: auto;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    left: 28%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }
 
-/* subdiv1 */
-.skills-subdiv1 {
-  margin-top: 5rem;
-}
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+  /* workexperience */
+  .resume-workexperience {
+    margin-top: 7rem;
+  }
+  .workexperience-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .workexperience-tablediv {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workexperience-tablediv-1 {
+  }
+  .workexperience-tablediv-2 {
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+  }
+  .workexperience-tablediv-2-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    font-size: 1.2rem;
+  }
+  .workexperience-tablediv-2-para1 {
+    letter-spacing: 0.063rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .workexperience-tablediv-2-para2 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.4rem;
+    font-size: 0.9rem;
+  }
+  /* subdiv1 */
+  .meetemfit-img {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  /* subdiv2 */
+  .jio-img {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
 
-/* subdiv2 */
-.skills-subdiv2 {
-  margin-top: 3rem;
-}
-/* subdiv3 */
-.skills-subdiv3 {
-  margin-top: 3rem;
-}
-/* subdiv4 */
-.skills-subdiv4 {
-  margin-top: 3rem;
-}
-/* subdiv5 */
-.skills-subdiv5 {
-  margin-top: 3rem;
-}
-/* subdiv6 */
-.skills-subdiv6 {
-  margin-top: 3rem;
-}
-/* subdiv7 */
-.skills-subdiv7 {
-  margin-top: 3rem;
-}
-/* subdiv8 */
-.skills-subdiv8 {
-  margin-top: 3rem;
-}
-/* subdiv9 */
-.skills-subdiv9 {
-  margin-top: 3rem;
-}
+  /* skills */
+  .resume-skills {
+    margin-top: 10rem;
+  }
+  .skills-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .skills-maindiv {
+    margin-left: 0.2rem;
+    width: 90%;
+    font-size: 0.9rem;
+    margin-left: 0.9rem;
+  }
+  .progress-bar {
+    background-color: #f3903f !important;
+    height: 0.01rem;
+  }
+  .progress {
+    margin-top: 2.5rem;
+    background-color: transparent !important;
+    height: 0.07rem;
+  }
 
-/* Github */
-.resume-github {
-  margin-top: 7rem;
-}
-.resume-github-para-link1 {
-  text-decoration: none;
-  color: white;
-  border: solid 0.1rem;
-  border-color: white;
-  padding: 1%;
-  font-weight: 400;
-  letter-spacing: 0.063rem;
-  display: inline-block;
-  margin-left: 43%;
-  transform: translateX(-50%);
-}
-.resume-github-para-link1:hover {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-}
-.resume-github-para-link2 {
-  text-decoration: none;
-  color: white;
-  border: solid 0.1rem;
-  border-color: white;
-  padding: 1%;
-  font-weight: 400;
-  letter-spacing: 0.063rem;
-  display: inline-block;
-  margin-left: 2rem;
-}
-.resume-github-para-link2:hover {
-  text-decoration: none;
-  color: black;
-  background-color: white;
+  /* subdiv1 */
+  .skills-subdiv1 {
+    margin-top: 5rem;
+  }
+  /* subdiv2 */
+  .skills-subdiv2 {
+    margin-top: 3rem;
+  }
+  /* subdiv3 */
+  .skills-subdiv3 {
+    margin-top: 3rem;
+  }
+  /* subdiv4 */
+  .skills-subdiv4 {
+    margin-top: 3rem;
+  }
+  /* subdiv5 */
+  .skills-subdiv5 {
+    margin-top: 3rem;
+  }
+  /* subdiv6 */
+  .skills-subdiv6 {
+    margin-top: 3rem;
+  }
+  /* subdiv7 */
+  .skills-subdiv7 {
+    margin-top: 3rem;
+  }
+  /* subdiv8 */
+  .skills-subdiv8 {
+    margin-top: 3rem;
+  }
+  /* subdiv9 */
+  .skills-subdiv9 {
+    margin-top: 3rem;
+  }
+  /* Github */
+  .resume-github {
+    margin-top: 7rem;
+  }
+  .resume-github-para-link1 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    position: relative;
+    left: 16%;
+    font-size: 0.8rem;
+    width: auto;
+  }
+  .resume-github-para-link1:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+  .resume-github-para-link2 {
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    width: auto;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    left: 27%;
+  }
+  .resume-github-para-link2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
 }

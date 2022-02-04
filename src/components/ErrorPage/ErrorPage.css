@@ -1,30 +1,387 @@
 .errorpage {
   color: white;
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
-.errorpage-div-heading {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+/* XX-Large */
+@media (min-width: 1400px) {
 }
-.errorpage-div-para1 {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 3rem;
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .errorpage-div-heading {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 3rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -0.5rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
 }
-.errorpage-div-para2 {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: -0.5rem;
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .errorpage-div-heading {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 3rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -0.5rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
 }
-.errorpage-div-button {
-  margin-top: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .errorpage-div-heading {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 3rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -0.5rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+  }
+}
+/*  Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .errorpage-div-heading {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 499px) and (max-width: 575px) {
+  .errorpage-div-heading {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 0.9rem;
+    margin-top: 0rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* XX-Small devices (portrait phones, less than 499px) */
+@media (min-width: 367px) and (max-width: 498px) {
+  .errorpage-div-heading {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 0.9rem;
+    margin-top: 0rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* XXX-Small devices (portrait phones, less than 367px) */
+@media (max-width: 366px) {
+  .errorpage-div-heading {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 0.9rem;
+    margin-top: 0rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 2%;
+    font-weight: 400;
+    letter-spacing: 0.063rem;
+    font-size: 0.8rem;
+  }
 }

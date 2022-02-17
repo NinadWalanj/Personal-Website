@@ -7,6 +7,8 @@ import emailjs from "@emailjs/browser";
 import errorimg from "../../assets/error-1.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Fade from "react-reveal/Fade";
+import Shake from "react-reveal/Shake";
 
 export default function Contact() {
   //  STATES
@@ -184,176 +186,190 @@ export default function Contact() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
     >
       <div className="contact-div container">
-        <h1 className="contact-div-heading">Hello! Let's work together.</h1>
+        <Fade left duration={1500}>
+          <h1 className="contact-div-heading">Hello! Let's work together.</h1>
+        </Fade>
 
-        <div className="contact-div-form-div">
-          <form method="post">
-            <div className="row contact-div-form-div-subdiv">
-              <div className="contact-subdiv-1 col-sm-12 col-md-12 col-lg-6 ">
-                <input
-                  type="text"
-                  id="exampleInputFirstName"
-                  name="firstname"
-                  placeholder="First name"
-                  autoComplete="new-password"
-                  value={input.firstname}
-                  onChange={handleInput}
-                  required={true}
-                  className="form-control contact-input-1 "
-                />
-                {Object.keys(firstnameError).map((x) => {
-                  return (
-                    <div className="contact-input-1-error-div">
-                      <img
-                        src={errorimg}
-                        alt="errorimage"
-                        className="error-validation-image"
-                      />
-                      <div key={x} className="contact-input-1-error">
-                        {firstnameError[x]}
-                      </div>
-                    </div>
-                  );
-                })}
+        <Fade bottom duration={1500}>
+          <div className="contact-div-form-div">
+            <form method="post">
+              <div className="row contact-div-form-div-subdiv">
+                <div className="contact-subdiv-1 col-sm-12 col-md-12 col-lg-6 ">
+                  <input
+                    type="text"
+                    id="exampleInputFirstName"
+                    name="firstname"
+                    placeholder="First name"
+                    autoComplete="new-password"
+                    value={input.firstname}
+                    onChange={handleInput}
+                    required={true}
+                    className="form-control contact-input-1 "
+                  />
+                  {Object.keys(firstnameError).map((x) => {
+                    return (
+                      <Shake>
+                        <div className="contact-input-1-error-div">
+                          <img
+                            src={errorimg}
+                            alt="errorimage"
+                            className="error-validation-image"
+                          />
+                          <div key={x} className="contact-input-1-error">
+                            {firstnameError[x]}
+                          </div>
+                        </div>
+                      </Shake>
+                    );
+                  })}
+                </div>
+
+                <div className="contact-subdiv-2 col-sm-12 col-md-12 col-lg-6 ">
+                  <input
+                    type="text"
+                    name="secondname"
+                    id="exampleInputSecondName"
+                    placeholder="Last name"
+                    autoComplete="new-password"
+                    value={input.secondname}
+                    onChange={handleInput}
+                    className="form-control contact-input-2 "
+                  />
+                  {Object.keys(secondnameError).map((x) => {
+                    return (
+                      <Shake>
+                        <div className="contact-input-1-error-div">
+                          <img
+                            src={errorimg}
+                            alt="errorimage"
+                            className="error-validation-image"
+                          />
+                          <div key={x} className="contact-input-2-error">
+                            {secondnameError[x]}
+                          </div>
+                        </div>
+                      </Shake>
+                    );
+                  })}
+                </div>
+
+                <div className="contact-subdiv-3 col-sm-12 col-md-12 col-lg-6 ">
+                  <input
+                    type="email"
+                    id="exampleInputEmail"
+                    name="email"
+                    placeholder="Email address"
+                    autoComplete="new-password"
+                    value={input.email}
+                    onChange={handleInput}
+                    required={true}
+                    className="form-control contact-input-3"
+                  />
+                  {Object.keys(emailError).map((x) => {
+                    return (
+                      <Shake>
+                        <div className="contact-input-1-error-div">
+                          <img
+                            src={errorimg}
+                            alt="errorimage"
+                            className="error-validation-image"
+                          />
+                          <div key={x} className="contact-input-3-error">
+                            {emailError[x]}
+                          </div>
+                        </div>
+                      </Shake>
+                    );
+                  })}
+                </div>
+
+                <div className="contact-subdiv-4 col-sm-12 col-md-12 col-lg-6">
+                  <input
+                    type="number"
+                    id="exampleInputNumber"
+                    name="number"
+                    placeholder="Phone number"
+                    autoComplete="new-password"
+                    value={input.number}
+                    onChange={handleInput}
+                    required={true}
+                    className="form-control contact-input-4"
+                  />
+                  {Object.keys(numberError).map((x) => {
+                    return (
+                      <Shake>
+                        <div className="contact-input-1-error-div">
+                          <img
+                            src={errorimg}
+                            alt="errorimage"
+                            className="error-validation-image"
+                          />
+                          <div key={x} className="contact-input-4-error">
+                            {numberError[x]}
+                          </div>
+                        </div>
+                      </Shake>
+                    );
+                  })}
+                </div>
+
+                <div className="contact-subdiv-5 col-sm-12 col-md-12 col-lg-12 ">
+                  <textarea
+                    name="message"
+                    id="exampleFormControlTextarea"
+                    rows="8"
+                    cols="8"
+                    placeholder="Type your message here.."
+                    value={input.message}
+                    onChange={handleInput}
+                    required={true}
+                    className="form-control contact-input-5"
+                  ></textarea>
+                  {Object.keys(messageError).map((x) => {
+                    return (
+                      <Shake>
+                        <div className="contact-input-1-error-div">
+                          <img
+                            src={errorimg}
+                            alt="errorimage"
+                            className="error-validation-image"
+                          />
+                          <div key={x} className="contact-input-5-error">
+                            {messageError[x]}
+                          </div>
+                        </div>
+                      </Shake>
+                    );
+                  })}
+                </div>
               </div>
 
-              <div className="contact-subdiv-2 col-sm-12 col-md-12 col-lg-6 ">
-                <input
-                  type="text"
-                  name="secondname"
-                  id="exampleInputSecondName"
-                  placeholder="Last name"
-                  autoComplete="new-password"
-                  value={input.secondname}
-                  onChange={handleInput}
-                  className="form-control contact-input-2 "
-                />
-                {Object.keys(secondnameError).map((x) => {
-                  return (
-                    <div className="contact-input-1-error-div">
-                      <img
-                        src={errorimg}
-                        alt="errorimage"
-                        className="error-validation-image"
-                      />
-                      <div key={x} className="contact-input-2-error">
-                        {secondnameError[x]}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
+              <button
+                type="submit"
+                className="contact-sendButton"
+                onClick={handleSubmit}
+              >
+                Submit
+              </button>
 
-              <div className="contact-subdiv-3 col-sm-12 col-md-12 col-lg-6 ">
-                <input
-                  type="email"
-                  id="exampleInputEmail"
-                  name="email"
-                  placeholder="Email address"
-                  autoComplete="new-password"
-                  value={input.email}
-                  onChange={handleInput}
-                  required={true}
-                  className="form-control contact-input-3"
-                />
-                {Object.keys(emailError).map((x) => {
-                  return (
-                    <div className="contact-input-1-error-div">
-                      <img
-                        src={errorimg}
-                        alt="errorimage"
-                        className="error-validation-image"
-                      />
-                      <div key={x} className="contact-input-3-error">
-                        {emailError[x]}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-
-              <div className="contact-subdiv-4 col-sm-12 col-md-12 col-lg-6">
-                <input
-                  type="number"
-                  id="exampleInputNumber"
-                  name="number"
-                  placeholder="Phone number"
-                  autoComplete="new-password"
-                  value={input.number}
-                  onChange={handleInput}
-                  required={true}
-                  className="form-control contact-input-4"
-                />
-                {Object.keys(numberError).map((x) => {
-                  return (
-                    <div className="contact-input-1-error-div">
-                      <img
-                        src={errorimg}
-                        alt="errorimage"
-                        className="error-validation-image"
-                      />
-                      <div key={x} className="contact-input-4-error">
-                        {numberError[x]}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-
-              <div className="contact-subdiv-5 col-sm-12 col-md-12 col-lg-12 ">
-                <textarea
-                  name="message"
-                  id="exampleFormControlTextarea"
-                  rows="8"
-                  cols="8"
-                  placeholder="Type your message here.."
-                  value={input.message}
-                  onChange={handleInput}
-                  required={true}
-                  className="form-control contact-input-5"
-                ></textarea>
-                {Object.keys(messageError).map((x) => {
-                  return (
-                    <div className="contact-input-1-error-div">
-                      <img
-                        src={errorimg}
-                        alt="errorimage"
-                        className="error-validation-image"
-                      />
-                      <div key={x} className="contact-input-5-error">
-                        {messageError[x]}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            <button
-              type="submit"
-              className="contact-sendButton"
-              onClick={handleSubmit}
-            >
-              Submit
-            </button>
-
-            <ToastContainer
-              toastStyle={{ backgroundColor: "#000000", color: "#FFFFFF" }}
-              position="top-center"
-              autoClose={4000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              draggable
-              pauseOnHover
-            />
-          </form>
-        </div>
+              <ToastContainer
+                toastStyle={{ backgroundColor: "#000000", color: "#FFFFFF" }}
+                position="top-center"
+                autoClose={4000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+              />
+            </form>
+          </div>
+        </Fade>
       </div>
     </motion.div>
   );

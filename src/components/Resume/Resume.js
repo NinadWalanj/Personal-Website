@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import jio from "../../assets/resume/jio-test.svg";
 import meetmefit from "../../assets/resume/test.svg";
 import resumeFile from "../../assets/resume/My-resume.pdf";
+import Fade from "react-reveal/Fade";
+import LazyLoad from "react-lazyload";
 
 function Resume() {
   return (
@@ -12,48 +14,62 @@ function Resume() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
     >
       <div className="resume container">
-        {/* <h1 className="resume-heading">
-          <span>Resume</span>
-        </h1> */}
-
         {/* work experience */}
         <div className="resume-workexperience ">
-          <h4 className="workexperience-heading">Work Experience</h4>
+          <Fade left duration={1500}>
+            <h4 className="workexperience-heading">Work Experience</h4>
+          </Fade>
           {/* first subdiv */}
           <div className="workexperience-tablediv row">
-            <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
-              <img src={meetmefit} alt="meetmefit" className="meetemfit-img" />
-            </div>
-            <div className="workexperience-tablediv-2 col">
-              <p className="workexperience-tablediv-2-para1">
-                October 2020 - January 2022
-              </p>
-              <h4 className="workexperience-tablediv-2-heading">MeetMeFit</h4>
-              <p className="workexperience-tablediv-2-para2">
-                Web Development Intern
-              </p>
-            </div>
+            <Fade bottom duration={1500}>
+              <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
+                <img
+                  src={meetmefit}
+                  alt="meetmefit"
+                  className="meetemfit-img"
+                />
+              </div>
+            </Fade>
+
+            <Fade bottom duration={1500}>
+              <div className="workexperience-tablediv-2 col">
+                <p className="workexperience-tablediv-2-para1">
+                  October 2020 - January 2022
+                </p>
+                <h4 className="workexperience-tablediv-2-heading">MeetMeFit</h4>
+                <p className="workexperience-tablediv-2-para2">
+                  Web Development Intern
+                </p>
+              </div>
+            </Fade>
           </div>
 
           {/* second subdiv */}
           <div className="workexperience-tablediv row">
-            <div className="workexperience-tablediv-1  col-sm-12 col-md-12 col-lg-6">
-              <img src={jio} alt="jio" className="jio-img" />
-            </div>
-            <div className="workexperience-tablediv-2 col">
-              <p className="workexperience-tablediv-2-para1">
-                June 2021 - July 2021
-              </p>
-              <h4 className="workexperience-tablediv-2-heading">
-                Jio Platforms Limited
-              </h4>
-              <p className="workexperience-tablediv-2-para2">
-                Web Development Intern
-              </p>
-            </div>
+            <Fade bottom duration={1500}>
+              <div className="workexperience-tablediv-1  col-sm-12 col-md-12 col-lg-6">
+                <LazyLoad offset={10} once={true}>
+                  <img src={jio} alt="jio" className="jio-img" />
+                </LazyLoad>
+              </div>
+            </Fade>
+
+            <Fade bottom duration={1500}>
+              <div className="workexperience-tablediv-2 col">
+                <p className="workexperience-tablediv-2-para1">
+                  June 2021 - July 2021
+                </p>
+                <h4 className="workexperience-tablediv-2-heading">
+                  Jio Platforms Limited
+                </h4>
+                <p className="workexperience-tablediv-2-para2">
+                  Web Development Intern
+                </p>
+              </div>
+            </Fade>
           </div>
         </div>
 
@@ -80,121 +96,127 @@ function Resume() {
 
         {/* skills */}
         <div className="resume-skills">
-          <h4 className="skills-heading">Skills & Expertise</h4>
+          <Fade left duration={1500}>
+            <h4 className="skills-heading">Skills & Expertise</h4>
+          </Fade>
 
-          <div className="skills-maindiv">
-            {/* subdiv1 */}
-            <div className="skills-subdiv1">
-              <p className="skills-subdiv1-para">HTML5, CSS3, Javascript</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "85%" }}
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="HTML,CSS,JAVASCRIPT"
-                ></div>
+          <Fade bottom duration={1500}>
+            <div className="skills-maindiv">
+              {/* subdiv1 */}
+              <div className="skills-subdiv1">
+                <p className="skills-subdiv1-para">HTML5, CSS3, Javascript</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "85%" }}
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="HTML,CSS,JAVASCRIPT"
+                  ></div>
+                </div>
+              </div>
+
+              {/* subdiv2 */}
+              <div className="skills-subdiv2">
+                <p className="skills-subdiv2-para">Git</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "80%" }}
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="GIT"
+                  ></div>
+                </div>
+              </div>
+
+              {/* subdiv3 */}
+              <div className="skills-subdiv3">
+                <p className="skills-subdiv3-para">OOP</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "80%" }}
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="OOP"
+                  ></div>
+                </div>
+              </div>
+
+              {/* subdiv4 */}
+              <div className="skills-subdiv4">
+                <p className="skills-subdiv4-para">React</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "85%" }}
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="REACT"
+                  ></div>
+                </div>
+              </div>
+
+              {/* subdiv5 */}
+              <div className="skills-subdiv5">
+                <p className="skills-subdiv5-para">Python</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "90%" }}
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="PYTHON"
+                  ></div>
+                </div>
+              </div>
+
+              {/* subdiv6 */}
+              <div className="skills-subdiv6">
+                <p className="skills-subdiv6-para">MERN</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "85%" }}
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="MERN"
+                  ></div>
+                </div>
+              </div>
+
+              {/* subdiv7 */}
+              <div className="skills-subdiv7">
+                <p className="skills-subdiv7-para">
+                  Databases (MySQL, MongoDB)
+                </p>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "80%" }}
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="DATABASES"
+                  ></div>
+                </div>
               </div>
             </div>
-
-            {/* subdiv2 */}
-            <div className="skills-subdiv2">
-              <p className="skills-subdiv2-para">Git</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "80%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="GIT"
-                ></div>
-              </div>
-            </div>
-
-            {/* subdiv3 */}
-            <div className="skills-subdiv3">
-              <p className="skills-subdiv3-para">OOP</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "80%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="OOP"
-                ></div>
-              </div>
-            </div>
-
-            {/* subdiv4 */}
-            <div className="skills-subdiv4">
-              <p className="skills-subdiv4-para">React</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "85%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="REACT"
-                ></div>
-              </div>
-            </div>
-
-            {/* subdiv5 */}
-            <div className="skills-subdiv5">
-              <p className="skills-subdiv5-para">Python</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "90%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="PYTHON"
-                ></div>
-              </div>
-            </div>
-
-            {/* subdiv6 */}
-            <div className="skills-subdiv6">
-              <p className="skills-subdiv6-para">MERN</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "85%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="MERN"
-                ></div>
-              </div>
-            </div>
-
-            {/* subdiv7 */}
-            <div className="skills-subdiv7">
-              <p className="skills-subdiv7-para">Databases (MySQL, MongoDB)</p>
-              <div className="progress">
-                <div
-                  className="progress-bar"
-                  role="progressbar"
-                  style={{ width: "80%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  aria-label="DATABASES"
-                ></div>
-              </div>
-            </div>
-          </div>
+          </Fade>
         </div>
 
         {/* Github */}

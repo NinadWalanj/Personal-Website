@@ -16,7 +16,7 @@ function ErrorPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
     >
       <div className="errorpage container">
         <h1 className="errorpage-div-heading">404 - Looks like you're lost.</h1>

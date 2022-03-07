@@ -4,28 +4,26 @@
 }
 /* XX-Large */
 @media (min-width: 1400px) {
-}
-/* X-Large devices (large desktops, less than 1400px) */
-@media (min-width: 1200px) and (max-width: 1399px) {
   .errorpage-div-heading {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: bold;
   }
   .errorpage-div-para1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
     margin-top: 3rem;
   }
   .errorpage-div-para2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-top: -0.5rem;
+    width: auto;
+    margin-top: -0.3rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -38,7 +36,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 1%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .errorpage-div-button:hover {
@@ -52,7 +50,59 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 1%;
-    font-weight: 400;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+  }
+}
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .errorpage-div-heading {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+  }
+  .errorpage-div-para1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 3rem;
+  }
+  .errorpage-div-para2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: -0.3rem;
+  }
+  .errorpage-div-button {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+  }
+  .errorpage-div-button:hover {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
 }
@@ -63,6 +113,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: bold;
   }
   .errorpage-div-para1 {
     text-align: center;
@@ -76,7 +127,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-top: -0.5rem;
+    margin-top: -0.3rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -88,8 +139,8 @@
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 1%;
-    font-weight: 400;
+    padding: 1.2%;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .errorpage-div-button:hover {
@@ -102,8 +153,8 @@
     color: black;
     border: solid 0.1rem;
     border-color: white;
-    padding: 1%;
-    font-weight: 400;
+    padding: 1.2%;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
 }
@@ -114,20 +165,21 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: bold;
   }
   .errorpage-div-para1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: auto;
     margin-top: 3rem;
   }
   .errorpage-div-para2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    margin-top: -0.5rem;
+    width: auto;
+    margin-top: -0.3rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -139,8 +191,8 @@
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 1%;
-    font-weight: 400;
+    padding: 1.5%;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .errorpage-div-button:hover {
@@ -153,8 +205,8 @@
     color: black;
     border: solid 0.1rem;
     border-color: white;
-    padding: 1%;
-    font-weight: 400;
+    padding: 1.5%;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
 }
@@ -166,6 +218,8 @@
     margin-right: auto;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
   }
   .errorpage-div-para1 {
     text-align: center;
@@ -181,7 +235,7 @@
     margin-right: auto;
     width: 100%;
     font-size: 0.9rem;
-    margin-top: -0.5rem;
+    margin-top: -0.3rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -194,7 +248,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -209,7 +263,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -223,22 +277,26 @@
     margin-right: auto;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
   }
   .errorpage-div-para1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 75%;
     margin-top: 3rem;
     font-size: 0.9rem;
+    letter-spacing: 0.01rem;
   }
   .errorpage-div-para2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 75%;
     font-size: 0.9rem;
-    margin-top: 0rem;
+    margin-top: 1.3rem;
+    letter-spacing: 0.01rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -251,7 +309,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -266,7 +324,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -280,22 +338,25 @@
     margin-right: auto;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: bold;
   }
   .errorpage-div-para1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     margin-top: 3rem;
     font-size: 0.9rem;
+    letter-spacing: 0.01rem;
   }
   .errorpage-div-para2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     font-size: 0.9rem;
-    margin-top: 0rem;
+    margin-top: 1.3rem;
+    letter-spacing: 0.01rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -308,7 +369,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -323,7 +384,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -337,22 +398,25 @@
     margin-right: auto;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: bold;
   }
   .errorpage-div-para1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     margin-top: 3rem;
     font-size: 0.9rem;
+    letter-spacing: 0.01rem;
   }
   .errorpage-div-para2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     font-size: 0.9rem;
     margin-top: 0rem;
+    letter-spacing: 0.01rem;
   }
   .errorpage-div-button {
     margin-top: 3rem;
@@ -365,7 +429,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }
@@ -380,7 +444,7 @@
     border: solid 0.1rem;
     border-color: white;
     padding: 2%;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
   }

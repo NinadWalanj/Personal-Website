@@ -1261,6 +1261,11 @@
 
 /* XX-Small devices (portrait phones, less than 499px) */
 @media (min-width: 367px) and (max-width: 498px) {
+  /* react toastify */
+  .Toastify__toast--success {
+    margin-left: 1rem;
+    width: 90%;
+  }
   .contact-div-form-div-subdiv {
     margin: auto;
   }
@@ -1480,6 +1485,12 @@
 
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
+  /* react toastify */
+  .Toastify__toast--success {
+    margin-left: 1rem;
+    width: 90%;
+  }
+
   .contact-div-form-div-subdiv {
     margin: auto;
   }

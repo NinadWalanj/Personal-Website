@@ -1,4 +1,5 @@
 // viewBox="0 0 1366 695"
+// Change loader, skills-bar, xx-large view problem
 
 import React, { lazy, Suspense } from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -7,9 +8,15 @@ import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
 import { Switch, Route, useLocation } from "react-router-dom";
 
-import ScrollToTop from "../components/ScrollToTop";
 import { AnimatePresence } from "framer-motion";
 import DelayedFallback from "./DelayedFallback/DelayedFallback";
+
+const ScrollToTop = lazy(
+  () =>
+    new Promise((resolve, reject) =>
+      setTimeout(() => resolve(import("../components/ScrollToTop")), 2000)
+    )
+);
 
 const Home = lazy(
   () =>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
-import menuimg from "../../assets/menu-1.png";
+import Hamburger from "hamburger-react";
 
 export default function Navbar() {
   return (
@@ -21,7 +21,12 @@ export default function Navbar() {
             aria-label="Toggle navigation"
           >
             <span className="toggler-icon">
-              <img className="menu-img" src={menuimg} alt="" />
+              <Hamburger
+                className="menu-img"
+                color="white"
+                size={"25"}
+                label="Show menu"
+              />
             </span>
           </button>
 

@@ -4,28 +4,33 @@
 
 /* XX-Large */
 @media (min-width: 1400px) {
+  .home-div {
+    height: 35vh;
+  }
   .home-div-heading {
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 3rem;
     color: white;
     width: 35rem;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 2rem;
   }
   .home-div-para {
     display: block;
     margin-top: 1.5rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
     color: white;
     font-size: 0.875rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: 35rem;
   }
@@ -36,18 +41,19 @@
     height: 35vh;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 4rem;
     color: white;
     width: 35rem;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 2rem;
   }
   .home-div-para {
     display: block;
@@ -57,7 +63,7 @@
     font-size: 0.875rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: 35rem;
   }
@@ -65,21 +71,23 @@
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .home-div {
-    height: 35vh;
+    height: 40vh;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 4rem;
     color: white;
     width: 35rem;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
+
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 2rem;
   }
   .home-div-para {
     display: block;
@@ -89,7 +97,7 @@
     font-size: 0.875rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: 35rem;
   }
@@ -97,21 +105,22 @@
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
   .home-div {
-    height: 35vh;
+    height: 47vh;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 4rem;
     color: white;
     width: 35rem;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 2rem;
   }
   .home-div-para {
     display: block;
@@ -121,7 +130,7 @@
     font-size: 0.875rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: 35rem;
   }
@@ -129,21 +138,22 @@
 /*  Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767px) {
   .home-div {
-    height: 35vh;
+    height: 40vh;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 0rem;
     color: white;
     width: 20rem;
-    font-size: 1.4rem;
-    line-height: 3rem;
-    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 0.5rem;
   }
   .home-div-para {
     display: block;
@@ -153,7 +163,7 @@
     font-size: 0.76rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: 30rem;
   }
@@ -162,20 +172,21 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 499px) and (max-width: 575px) {
   .home-div {
-    height: 35vh;
+    height: 40vh;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 2rem;
     color: white;
-    font-size: 1.4rem;
+    font-size: 3rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 1rem;
   }
   .home-div-para {
     display: block;
@@ -185,7 +196,7 @@
     font-size: 0.76rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: auto;
   }
@@ -194,20 +205,21 @@
 /* XX-Small devices (portrait phones, less than 499px) */
 @media (min-width: 367px) and (max-width: 498px) {
   .home-div {
-    height: 35vh;
+    height: 41vh;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 2rem;
     color: white;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 1rem;
   }
   .home-div-para {
     display: block;
@@ -217,7 +229,7 @@
     font-size: 0.76rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: auto;
   }
@@ -226,20 +238,21 @@
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
   .home-div {
-    height: 35vh;
+    height: auto;
   }
   .home-div-heading {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: inline-block;
     margin-left: 2rem;
     color: white;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     line-height: 3rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.063rem;
   }
   .home-div-heading-span {
     display: block;
+    margin-top: 1rem;
   }
   .home-div-para {
     display: block;
@@ -249,7 +262,7 @@
     font-size: 0.76rem;
     line-height: 1.875rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.063rem;
     width: auto;
   }

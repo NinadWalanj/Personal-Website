@@ -181,6 +181,17 @@ export default function Contact() {
     }
   }
 
+  // function test() {
+  //   toast.success("test", {
+  //     position: "top-center",
+  //     autoClose: 4000,
+  //     hideProgressBar: false,
+  //     closeOnClick: true,
+  //     pauseOnHover: true,
+  //     draggable: true,
+  //   });
+  // }
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -189,6 +200,19 @@ export default function Contact() {
       transition={{ duration: 1 }}
     >
       <div className="contact-div container">
+        <ToastContainer
+          position="top-center"
+          toastStyle={{ backgroundColor: "#000000", color: "#FFFFFF" }}
+          autoClose={4000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+
         <Fade left duration={1500}>
           <h1 className="contact-div-heading">Hello! Let's work together.</h1>
         </Fade>
@@ -355,18 +379,7 @@ export default function Contact() {
                 Submit
               </button>
 
-              <ToastContainer
-                toastStyle={{ backgroundColor: "#000000", color: "#FFFFFF" }}
-                position="top-center"
-                autoClose={4000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-              />
+              {/* <button onClick={test}>test</button> */}
             </form>
           </div>
         </Fade>

@@ -12,8 +12,10 @@ export default function Home() {
     >
       <div className="home-div container">
         <h1 className="home-div-heading">
-          What makes you unique,
-          <span className="home-div-heading-span">makes you successful.</span>
+          {/* What makes you unique,
+          <span className="home-div-heading-span">makes you successful.</span> */}
+          Be
+          <span className="home-div-heading-span">Unique —</span>
         </h1>
         <p className="home-div-para">
           Hi, I'm Ninad Walanj · Developer based in N19°2'51.845''E73°3'59.132''

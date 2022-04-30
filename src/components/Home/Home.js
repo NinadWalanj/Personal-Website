@@ -18,9 +18,11 @@ export default function Home() {
           <span className="home-div-heading-span">Unique —</span>
         </h1>
         <p className="home-div-para">
-          Hi, I'm Ninad Walanj · Developer based in N19°2'51.845''E73°3'59.132''
+          Hi, I'm Ninad Walanj · Developer based in 19.0473° N, 73.0699° E
         </p>
       </div>
     </motion.div>
   );
 }
+
+// N19°2'51.845''E73°3'59.132''

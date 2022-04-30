@@ -27,7 +27,7 @@
     margin-right: auto;
     padding: 20rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,20 +71,23 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2.5%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
-    padding-top: 4%;
-    padding-bottom: 4%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -116,7 +119,7 @@
     margin-right: auto;
     padding: 20rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,20 +163,23 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
-    padding-top: 4%;
-    padding-bottom: 4%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -203,9 +209,9 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20rem;
+    padding: 15rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -249,20 +255,23 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
-    padding-top: 4%;
-    padding-bottom: 4%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -292,9 +301,9 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20rem;
+    padding: 15rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -338,20 +347,23 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2.5%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
-    padding-top: 4%;
-    padding-bottom: 4%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -383,7 +395,7 @@
     margin-right: auto;
     padding: 10rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -430,19 +442,24 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2.5%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
     font-weight: 400;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -476,7 +493,7 @@
     margin-right: auto;
     padding: 10rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -523,19 +540,24 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
     font-weight: 400;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -567,9 +589,9 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 10rem;
+    padding: 8rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -616,19 +638,24 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2.5%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
     font-weight: 400;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;
@@ -660,9 +687,9 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 10rem;
+    padding: 6.5rem;
     border-radius: 0.5rem;
-    background-image: url("../../assets/1.jpg");
+    background-image: url("../../assets/about-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -709,19 +736,24 @@
     letter-spacing: 0.063rem;
   }
   .about-div-textdiv-second-subdiv-link1 {
+    padding: 2.5%;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 3%;
     font-weight: 400;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .about-div-textdiv-second-subdiv-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .about-div-textdiv-second-subdiv-link2 {
     text-decoration: none;

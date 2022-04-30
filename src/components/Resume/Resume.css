@@ -1,36 +1,40 @@
+/*  */
 .resume {
   color: #fff;
-  margin-top: 10rem;
 }
-.resume-heading {
-  font-size: 2.5rem;
-  text-align: center;
-  letter-spacing: 0.063rem;
-  overflow: hidden;
-}
+
 /* XX-Large */
 @media (min-width: 1400px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
     font-size: 1.6rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
+    margin-left: 1rem;
     margin-right: auto;
   }
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 0.625rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
   .workexperience-tablediv-2 {
     margin-left: 2rem;
-  }
-  .workexperience-tablediv-2-heading {
-    letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    line-height: 1.25;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
@@ -40,17 +44,50 @@
     letter-spacing: 0.063rem;
     margin-top: 1.5rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 30rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 30rem;
-    height: auto;
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+  .projects-main-card-heading {
+    font-size: 1rem;
+  }
+  .projects-main-card-para {
+    font-size: 1rem;
+  }
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -63,51 +100,119 @@
   }
   .skills-maindiv {
     margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.12rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
-    background-color: transparent !important;
-    height: 0.3rem;
-  }
+
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -125,11 +230,14 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 2rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -141,36 +249,48 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 4rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
     font-size: 1.6rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
+    margin-left: 1rem;
     margin-right: auto;
   }
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 0.625rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
   .workexperience-tablediv-2 {
     margin-left: 2rem;
-  }
-  .workexperience-tablediv-2-heading {
-    letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    line-height: 1.25;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
@@ -180,17 +300,50 @@
     letter-spacing: 0.063rem;
     margin-top: 1.5rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 30rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 30rem;
-    height: auto;
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+  .projects-main-card-heading {
+    font-size: 1rem;
+  }
+  .projects-main-card-para {
+    font-size: 1rem;
+  }
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -203,51 +356,119 @@
   }
   .skills-maindiv {
     margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.15rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
-    background-color: transparent !important;
-    height: 0.19rem;
-  }
+
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -265,11 +486,15 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 2rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -281,36 +506,49 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 4rem;
+
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
     font-size: 1.6rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
+    margin-left: 1rem;
     margin-right: auto;
   }
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
+    letter-spacing: 0.1rem;
+    margin-top: 0.625rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
   .workexperience-tablediv-2 {
     margin-left: 2rem;
-  }
-  .workexperience-tablediv-2-heading {
-    letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    line-height: 1.25;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
@@ -320,17 +558,51 @@
     letter-spacing: 0.063rem;
     margin-top: 1.5rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 25rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 25rem;
-    height: auto;
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+
+  .projects-main-card-heading {
+    font-size: 1rem;
+  }
+  .projects-main-card-para {
+    font-size: 1rem;
+  }
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -343,51 +615,119 @@
   }
   .skills-maindiv {
     margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.1rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
-    background-color: transparent !important;
-    height: 0.19rem;
-  }
+
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -405,11 +745,14 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 2rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -421,40 +764,48 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 4rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
     font-size: 1.6rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
+    margin-left: 1rem;
     margin-right: auto;
   }
-  .workexperience-tablediv-1 {
-    margin-left: 2rem;
-  }
-  .workexperience-tablediv-2 {
-    margin-top: 4rem;
-    margin-left: 2rem;
-  }
-  .workexperience-tablediv-2-heading {
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
     letter-spacing: 0.1rem;
-    margin-top: 2rem;
+    margin-top: 0.625rem;
     font-size: 1.5rem;
+    font-weight: bold;
     line-height: 1.25;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
+  .workexperience-tablediv-2 {
+    margin-top: 3rem;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
@@ -464,17 +815,51 @@
     letter-spacing: 0.063rem;
     margin-top: 1.5rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 30rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 30rem;
-    height: auto;
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+
+  .projects-main-card-heading {
+    font-size: 1rem;
+  }
+  .projects-main-card-para {
+    font-size: 1rem;
+  }
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -487,54 +872,134 @@
   }
   .skills-maindiv {
     margin-left: 1rem;
-    width: 95%;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    grid-auto-flow: row;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.1rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
+  .skills-maindiv::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 1.4rem;
     background-color: transparent !important;
-    height: 0.19rem;
+  }
+
+  .skills-maindiv::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+    border-bottom: 0.5rem #888 solid;
+    background-clip: padding-box;
+    border-radius: 0.2rem;
   }
 
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -552,11 +1017,14 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 2rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -568,62 +1036,102 @@
     letter-spacing: 0.063rem;
     display: inline-block;
     margin-left: 4rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 /*  Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
     font-size: 1.4rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
+    margin-left: 1rem;
     margin-right: auto;
   }
-  .workexperience-tablediv-1 {
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2 {
-    margin-top: 4rem;
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2-heading {
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
     letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    font-size: 1.2rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    font-weight: bold;
     line-height: 1.25;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
+  .workexperience-tablediv-2 {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
-    font-weight: 500;
-    font-size: 0.9rem;
   }
   .workexperience-tablediv-2-para2 {
     letter-spacing: 0.063rem;
     margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+
+  .projects-main-card-heading {
     font-size: 0.9rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 30rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .projects-main-card-para {
+    font-size: 0.9rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 30rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -635,55 +1143,136 @@
     font-size: 1.4rem;
   }
   .skills-maindiv {
-    margin-left: 0.2rem;
-    width: 95%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    grid-auto-flow: row;
     font-size: 0.9rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.14rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
+  .skills-maindiv::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 1.4rem;
     background-color: transparent !important;
-    height: 0.15rem;
+  }
+
+  .skills-maindiv::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+    border-bottom: 0.5rem #888 solid;
+    background-clip: padding-box;
+    border-radius: 0.2rem;
   }
 
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -703,11 +1292,14 @@
     font-size: 0.8rem;
     width: auto;
     margin-left: 1rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -721,11 +1313,14 @@
     font-size: 0.8rem;
     display: inline-block;
     margin-left: 3rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 
@@ -733,7 +1328,7 @@
 @media (min-width: 499px) and (max-width: 575px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
@@ -741,44 +1336,82 @@
     margin-left: 0.7rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
     margin-right: auto;
+    margin-left: 1rem;
   }
-  .workexperience-tablediv-1 {
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2 {
-    margin-top: 4rem;
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2-heading {
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
     letter-spacing: 0.1rem;
-    margin-top: 2rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    font-weight: bold;
     line-height: 1.25;
-    font-size: 1.2rem;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
+  .workexperience-tablediv-2 {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
-    font-weight: 500;
-    font-size: 0.9rem;
   }
   .workexperience-tablediv-2-para2 {
     letter-spacing: 0.063rem;
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+
+  .projects-main-card-heading {
     font-size: 0.9rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 25rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .projects-main-card-para {
+    font-size: 0.9rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 25rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -791,56 +1424,136 @@
     margin-left: 0.7rem;
   }
   .skills-maindiv {
-    margin-left: 0.2rem;
-    width: 90%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    grid-auto-flow: row;
     font-size: 0.9rem;
-    margin-left: 0.9rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.07rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
+  .skills-maindiv::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 1.4rem;
     background-color: transparent !important;
-    height: 0.1rem;
+  }
+
+  .skills-maindiv::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+    border-bottom: 0.5rem #888 solid;
+    background-clip: padding-box;
+    border-radius: 0.2rem;
   }
 
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -860,11 +1573,14 @@
     font-size: 0.8rem;
     width: auto;
     margin-left: 0rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -878,11 +1594,14 @@
     font-size: 0.8rem;
     display: inline-block;
     margin-left: 3rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 
@@ -890,7 +1609,7 @@
 @media (min-width: 367px) and (max-width: 498px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
@@ -898,45 +1617,82 @@
     margin-left: 0.7rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
     margin-right: auto;
+    margin-left: 1rem;
   }
-  .workexperience-tablediv-1 {
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2 {
-    margin-top: 4rem;
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2-heading {
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
     letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    font-weight: bold;
     line-height: 1.25;
-    font-size: 1.2rem;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
+  .workexperience-tablediv-2 {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
-    font-weight: 500;
-    font-size: 0.9rem;
   }
   .workexperience-tablediv-2-para2 {
     letter-spacing: 0.063rem;
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+
+  .projects-main-card-heading {
     font-size: 0.9rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 20rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .projects-main-card-para {
+    font-size: 0.9rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 20rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -949,56 +1705,127 @@
     margin-left: 0.7rem;
   }
   .skills-maindiv {
-    margin-left: 0.2rem;
-    width: 90%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    grid-auto-flow: row;
     font-size: 0.9rem;
-    margin-left: 0.9rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.07rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
-    background-color: transparent !important;
-    height: 0.09rem;
+  .skills-maindiv::-webkit-scrollbar {
+    display: none;
   }
 
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
 
   /* Github */
@@ -1018,11 +1845,14 @@
     font-size: 0.8rem;
     width: auto;
     margin-left: 0rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -1036,11 +1866,14 @@
     font-size: 0.8rem;
     display: inline-block;
     margin-left: 2rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }
 
@@ -1048,7 +1881,7 @@
 @media (max-width: 366px) {
   /* workexperience */
   .resume-workexperience {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
   .workexperience-heading {
     display: inline-block;
@@ -1056,44 +1889,81 @@
     margin-left: 0.7rem;
   }
   .workexperience-tablediv {
-    margin-top: 6rem;
-    margin-left: auto;
+    margin-top: 5rem;
     margin-right: auto;
+    margin-left: 1rem;
   }
-  .workexperience-tablediv-1 {
-  }
-  .workexperience-tablediv-2 {
-    margin-top: 4rem;
-    margin-left: 0.2rem;
-  }
-  .workexperience-tablediv-2-heading {
+  /* tablediv-1 */
+  .workexperience-tablediv-1-heading {
     letter-spacing: 0.1rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    font-weight: bold;
     line-height: 1.25;
-    font-size: 1.2rem;
+  }
+  .workexperience-tablediv-1-para1 {
+    letter-spacing: 0.063rem;
+    font-size: 0.9rem;
+  }
+
+  /* tablediv-2 */
+  .workexperience-tablediv-2 {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    text-align: justify;
   }
   .workexperience-tablediv-2-para1 {
     letter-spacing: 0.063rem;
-    font-weight: 500;
-    font-size: 0.9rem;
   }
   .workexperience-tablediv-2-para2 {
     letter-spacing: 0.063rem;
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para3 {
+    letter-spacing: 0.063rem;
+    margin-top: 1.5rem;
+  }
+  .workexperience-tablediv-2-para2-span {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+  }
+  .workexperience-tablediv-2-para3-span {
+    margin-left: 0.4rem;
+    margin-right: 0rem;
+  }
+
+  /* Projects */
+  .resume-projects {
+    margin-top: 10rem;
+  }
+  .projects-heading {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 0.7rem;
+  }
+  .projects-parent-card {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .projects-main-card {
+    background: transparent !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-color: white;
+  }
+  .projects-main-card-heading {
     font-size: 0.9rem;
   }
-  /* subdiv1 */
-  .meetemfit-img {
-    width: 18rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .projects-main-card-para {
+    font-size: 0.9rem;
   }
-  /* subdiv2 */
-  .jio-img {
-    width: 18rem;
-    height: auto;
-    border-radius: 0.5rem;
+  .card-link {
+    text-decoration: none;
+    color: white;
+  }
+  .card-link:hover {
+    text-decoration: none;
+    color: white;
   }
 
   /* skills */
@@ -1106,57 +1976,129 @@
     margin-left: 0.7rem;
   }
   .skills-maindiv {
-    margin-left: 0.2rem;
-    width: 90%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: auto auto;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    grid-auto-flow: row;
     font-size: 0.9rem;
-    margin-left: 0.9rem;
   }
-  .progress-bar {
-    background-color: #f3903f !important;
-    height: 0.06rem;
-  }
-  .progress {
-    margin-top: 2.5rem;
-    background-color: transparent !important;
-    height: 0.09rem;
+  .skills-maindiv::-webkit-scrollbar {
+    display: none;
   }
 
   /* subdiv1 */
   .skills-subdiv1 {
-    margin-top: 5rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
+  .skills-subdiv1-para {
+    display: inline;
+  }
+  .skills-subdiv1-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
+  }
+
   /* subdiv2 */
   .skills-subdiv2 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv2-para {
+    display: inline;
+  }
+  .skills-subdiv2-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv3 */
   .skills-subdiv3 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv3-para {
+    display: inline;
+  }
+  .skills-subdiv3-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv4 */
   .skills-subdiv4 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv4-para {
+    display: inline;
+  }
+  .skills-subdiv4-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv5 */
   .skills-subdiv5 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv5-para {
+    display: inline;
+  }
+  .skills-subdiv5-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv6 */
   .skills-subdiv6 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+  }
+  .skills-subdiv6-para {
+    display: inline;
+  }
+  .skills-subdiv6-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
   /* subdiv7 */
   .skills-subdiv7 {
-    margin-top: 3rem;
+    display: inline;
+    padding: 0.8rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
   }
-  /* subdiv8 */
-  .skills-subdiv8 {
-    margin-top: 3rem;
+  .skills-subdiv7-para {
+    display: inline;
   }
-  /* subdiv9 */
-  .skills-subdiv9 {
-    margin-top: 3rem;
+  .skills-subdiv7-icon {
+    width: 2.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.8rem;
   }
+
   /* Github */
   .resume-github {
     margin-top: 7rem;
@@ -1174,11 +2116,14 @@
     font-size: 0.8rem;
     width: auto;
     margin-left: 0rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link1:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
   .resume-github-para-link2 {
     text-decoration: none;
@@ -1192,10 +2137,13 @@
     font-size: 0.8rem;
     display: inline-block;
     margin-left: 2rem;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .resume-github-para-link2:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-position: left;
   }
 }

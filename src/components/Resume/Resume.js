@@ -1,12 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Resume.css";
 import { motion } from "framer-motion";
-import jio from "../../assets/resume/jio-test.svg";
-import meetmefit from "../../assets/resume/test.svg";
 import resumeFile from "../../assets/resume/My-resume.pdf";
 import Fade from "react-reveal/Fade";
-import LazyLoad from "react-lazyload";
+import js from "../../assets/resume/js.png";
+import html from "../../assets/resume/html.png";
+import git from "../../assets/resume/git.png";
+import python from "../../assets/resume/python.png";
+import databases from "../../assets/resume/database.png";
+import oop from "../../assets/resume/oop.png";
+import mern from "../../assets/resume/mern.png";
+import { LazyImage } from "react-lazy-images";
 
 function Resume() {
   return (
@@ -18,30 +22,46 @@ function Resume() {
     >
       <div className="resume container">
         {/* work experience */}
-        <div className="resume-workexperience ">
+        <div className="resume-workexperience">
           <Fade left duration={1500}>
-            <h4 className="workexperience-heading">Work Experience</h4>
+            <h4 className="workexperience-heading">Experience</h4>
           </Fade>
           {/* first subdiv */}
           <div className="workexperience-tablediv row">
             <Fade bottom duration={1500}>
               <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
-                <img
-                  src={meetmefit}
-                  alt="meetmefit"
-                  className="meetemfit-img"
-                />
+                <p className="workexperience-tablediv-1-para1">
+                  WEB DEVELOPMENT INTERN
+                </p>
+                <h4 className="workexperience-tablediv-1-heading">MeetMeFit</h4>
               </div>
             </Fade>
 
             <Fade bottom duration={1500}>
               <div className="workexperience-tablediv-2 col">
                 <p className="workexperience-tablediv-2-para1">
-                  October 2020 - January 2022
+                  It was a 1 year 4 months internship. Learned a lot about how
+                  real world applications are developed and got acquainted about
+                  the tasks assigned to a web developer. During my tenure, I
+                  created 2 websites for the company.
                 </p>
-                <h4 className="workexperience-tablediv-2-heading">MeetMeFit</h4>
                 <p className="workexperience-tablediv-2-para2">
-                  Web Development Intern
+                  My first website was the MeetMeFit
+                  <span className="workexperience-tablediv-2-para2-span">
+                    Admin Panel
+                  </span>
+                  where I had the responsibility to create an application that
+                  fetches data from the database and various actions can be
+                  performed on that data. It was a backend oriented website.
+                </p>
+                <p className="workexperience-tablediv-2-para3">
+                  My second website was the
+                  <span className="workexperience-tablediv-2-para3-span">
+                    official MeetMeFit website
+                  </span>
+                  . Here, I had to create a frontend as well as a backend. The
+                  objective of creating this website was for marketing and other
+                  purposes. It was a frontend oriented website.
                 </p>
               </div>
             </Fade>
@@ -50,49 +70,71 @@ function Resume() {
           {/* second subdiv */}
           <div className="workexperience-tablediv row">
             <Fade bottom duration={1500}>
-              <div className="workexperience-tablediv-1  col-sm-12 col-md-12 col-lg-6">
-                <LazyLoad offset={10} once={true}>
-                  <img src={jio} alt="jio" className="jio-img" />
-                </LazyLoad>
+              <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
+                <p className="workexperience-tablediv-1-para1">
+                  WEB DEVELOPMENT INTERN
+                </p>
+                <h4 className="workexperience-tablediv-1-heading">
+                  JIO Platforms Limited
+                </h4>
               </div>
             </Fade>
 
             <Fade bottom duration={1500}>
               <div className="workexperience-tablediv-2 col">
                 <p className="workexperience-tablediv-2-para1">
-                  June 2021 - July 2021
+                  It was a 1 month internship. This internship helped me in
+                  understanding the working of a large corporate giant like JIO.
                 </p>
-                <h4 className="workexperience-tablediv-2-heading">
-                  Jio Platforms Limited
-                </h4>
                 <p className="workexperience-tablediv-2-para2">
-                  Web Development Intern
+                  I was given a few frontend tasks. Apart from that, I was told
+                  to identify new features for future releases and to improve
+                  the existing UI experience.
+                </p>
+                <p className="workexperience-tablediv-2-para3">
+                  I worked on technologies like AngularJS, TypeScript and
+                  Leaflet library.
                 </p>
               </div>
             </Fade>
           </div>
         </div>
 
-        {/* Education */}
-        {/* <div className="resume-education ">
-          <h4 className="education-heading">Education</h4> */}
-
-        {/* first subdiv */}
-        {/* <div className="education-tablediv row">
-            <div className="education-tablediv-1  col-4"> */}
-        {/* <img src={muImage} alt="mumbai university" className="mu-image" /> */}
-        {/* </div>
-            <div className="education-tablediv-2 col">
-              <h4 className="education-tablediv-2-heading">
-                Mumbai University
-              </h4>
-              <p className="education-tablediv-2-para1">
-                B.E. in Information Technology, 2019 - 2023
-              </p>
-              <p className="education-tablediv-2-para2">Mumbai, Maharashtra</p>
+        {/* Projects */}
+        <div className="resume-projects">
+          <Fade left duration={1500}>
+            <h4 className="projects-heading">Projects</h4>
+          </Fade>
+          <Fade bottom duration={1500}>
+            <div className="d-flex flex-row flex-nowrap overflow-auto projects-parent-card">
+              {/* CARD1 */}
+              <a
+                href="https://github.com/NinadWalanj/React-Weather-Application"
+                className="card-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="card projects-main-card">
+                  <div className="card-header projects-main-card-heading">
+                    React Weather App
+                  </div>
+                  <div className="card-body">
+                    <p className="card-text projects-main-card-para">
+                      Weather application written in React.
+                    </p>
+                    <p className="card-text projects-main-card-para">
+                      15 Feb 2020
+                    </p>
+                  </div>
+                </div>
+              </a>
+              {/* CARD2 */}
+              {/* <div className="card card-block">Card</div> */}
+              {/* CARD3 */}
+              {/* <div className="card card-block">Card</div> */}
             </div>
-          </div>
-        </div> */}
+          </Fade>
+        </div>
 
         {/* skills */}
         <div className="resume-skills">
@@ -104,142 +146,161 @@ function Resume() {
             <div className="skills-maindiv">
               {/* subdiv1 */}
               <div className="skills-subdiv1">
-                <p className="skills-subdiv1-para">HTML5, CSS3, Javascript</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "85%" }}
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="HTML,CSS,JAVASCRIPT"
-                  ></div>
-                </div>
+                {/* <img
+                  src={html}
+                  alt="html-icon"
+                  className="skills-subdiv1-icon"
+                /> */}
+                <LazyImage
+                  className="skills-subdiv1-icon"
+                  src={html}
+                  alt="html-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
+                <p className="skills-subdiv1-para">HTML + CSS</p>
               </div>
 
               {/* subdiv2 */}
               <div className="skills-subdiv2">
-                <p className="skills-subdiv2-para">Git</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "80%" }}
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="GIT"
-                  ></div>
-                </div>
+                <LazyImage
+                  className="skills-subdiv2-icon"
+                  src={js}
+                  alt="js-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
+                <p className="skills-subdiv2-para">Javascript</p>
               </div>
 
               {/* subdiv3 */}
               <div className="skills-subdiv3">
-                <p className="skills-subdiv3-para">OOP</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "80%" }}
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="OOP"
-                  ></div>
-                </div>
+                <LazyImage
+                  className="skills-subdiv3-icon"
+                  src={mern}
+                  alt="mern-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
+                <p className="skills-subdiv3-para">MERN</p>
               </div>
 
               {/* subdiv4 */}
               <div className="skills-subdiv4">
-                <p className="skills-subdiv4-para">React</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "85%" }}
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="REACT"
-                  ></div>
-                </div>
+                <LazyImage
+                  className="skills-subdiv4-icon"
+                  src={git}
+                  alt="git-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
+                <p className="skills-subdiv4-para">Git + Github</p>
               </div>
 
               {/* subdiv5 */}
               <div className="skills-subdiv5">
+                <LazyImage
+                  className="skills-subdiv5-icon"
+                  src={python}
+                  alt="python-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
                 <p className="skills-subdiv5-para">Python</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "90%" }}
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="PYTHON"
-                  ></div>
-                </div>
               </div>
 
               {/* subdiv6 */}
               <div className="skills-subdiv6">
-                <p className="skills-subdiv6-para">MERN</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "85%" }}
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="MERN"
-                  ></div>
-                </div>
+                <LazyImage
+                  className="skills-subdiv6-icon"
+                  src={databases}
+                  alt="databases-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
+                <p className="skills-subdiv6-para">Databases</p>
               </div>
 
               {/* subdiv7 */}
               <div className="skills-subdiv7">
-                <p className="skills-subdiv7-para">
-                  Databases (MySQL, MongoDB)
-                </p>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "80%" }}
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    aria-label="DATABASES"
-                  ></div>
-                </div>
+                <LazyImage
+                  className="skills-subdiv7-icon"
+                  src={oop}
+                  alt="oop-icon"
+                  placeholder={({ imageProps, ref }) => (
+                    <img
+                      ref={ref}
+                      src="/img/porto_buildings_lowres.jpg"
+                      alt={imageProps.alt}
+                    />
+                  )}
+                  actual={({ imageProps }) => <img {...imageProps} />}
+                />
+                <p className="skills-subdiv7-para">OOP</p>
               </div>
             </div>
           </Fade>
         </div>
 
         {/* Github */}
-        <div className="resume-github ">
-          <a
-            href="https://github.com/NinadWalanj"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="resume-github-para-link1 "
-          >
-            Github
-          </a>
+        <Fade bottom duration={1500}>
+          <div className="resume-github ">
+            <a
+              href="https://github.com/NinadWalanj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-github-para-link1 "
+            >
+              Github
+            </a>
 
-          <a
-            href={resumeFile}
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="resume-github-para-link2 "
-          >
-            Download resume
-          </a>
-        </div>
+            <a
+              href={resumeFile}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="resume-github-para-link2 "
+            >
+              Download resume
+            </a>
+          </div>
+        </Fade>
       </div>
     </motion.div>
   );

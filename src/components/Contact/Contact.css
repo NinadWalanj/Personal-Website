@@ -145,16 +145,21 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    text-decoration: none;
-    border: solid 0.1rem;
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    padding: 1%;
+
     padding-left: 2%;
     padding-right: 2%;
     width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
     font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
@@ -163,10 +168,8 @@
     border: solid 0.1rem;
     border-color: white;
     color: black;
-    background-color: white;
+    background-position: left;
     padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
     width: auto;
   }
 
@@ -349,16 +352,21 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    text-decoration: none;
-    border: solid 0.1rem;
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    padding: 1%;
+
     padding-left: 2%;
     padding-right: 2%;
     width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
     font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
@@ -367,10 +375,8 @@
     border: solid 0.1rem;
     border-color: white;
     color: black;
-    background-color: white;
+    background-position: left;
     padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
     width: auto;
   }
 
@@ -553,16 +559,21 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    text-decoration: none;
-    border: solid 0.1rem;
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    padding: 1%;
+
     padding-left: 2%;
     padding-right: 2%;
     width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1%;
     font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
@@ -571,10 +582,8 @@
     border: solid 0.1rem;
     border-color: white;
     color: black;
-    background-color: white;
+    background-position: left;
     padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
     width: auto;
   }
 
@@ -757,16 +766,21 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    text-decoration: none;
-    border: solid 0.1rem;
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    padding: 1%;
+
     padding-left: 2%;
     padding-right: 2%;
     width: auto;
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem;
+    border-color: white;
+    padding: 1.5%;
     font-weight: 400;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
@@ -775,10 +789,8 @@
     border: solid 0.1rem;
     border-color: white;
     color: black;
-    background-color: white;
-    padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
+    background-position: left;
+    padding: 1.5%;
     width: auto;
   }
 
@@ -969,7 +981,9 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: transparent;
+
+    padding-left: 2%;
+    padding-right: 2%;
     width: auto;
     text-decoration: none;
     color: white;
@@ -978,20 +992,22 @@
     padding: 2%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
     font-size: 0.8rem;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: white;
-    width: auto;
     text-decoration: none;
-    color: black;
     border: solid 0.1rem;
     border-color: white;
+    color: black;
+    background-position: left;
     padding: 2%;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    width: auto;
     font-size: 0.8rem;
   }
 
@@ -1189,7 +1205,9 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: transparent;
+
+    padding-left: 2%;
+    padding-right: 2%;
     width: auto;
     text-decoration: none;
     color: white;
@@ -1198,20 +1216,22 @@
     padding: 2%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
     font-size: 0.8rem;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: white;
-    width: auto;
     text-decoration: none;
-    color: black;
     border: solid 0.1rem;
     border-color: white;
+    color: black;
+    background-position: left;
     padding: 2%;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    width: auto;
     font-size: 0.8rem;
   }
 
@@ -1414,7 +1434,9 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: transparent;
+
+    padding-left: 2%;
+    padding-right: 2%;
     width: auto;
     text-decoration: none;
     color: white;
@@ -1423,20 +1445,22 @@
     padding: 2%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
     font-size: 0.8rem;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: white;
-    width: auto;
     text-decoration: none;
-    color: black;
     border: solid 0.1rem;
     border-color: white;
+    color: black;
+    background-position: left;
     padding: 2%;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    width: auto;
     font-size: 0.8rem;
   }
   /* Validation error */
@@ -1639,7 +1663,9 @@
   .contact-sendButton {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: transparent;
+
+    padding-left: 2%;
+    padding-right: 2%;
     width: auto;
     text-decoration: none;
     color: white;
@@ -1648,20 +1674,22 @@
     padding: 2%;
     font-weight: 400;
     letter-spacing: 0.063rem;
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.1s linear;
     font-size: 0.8rem;
   }
   .contact-sendButton:hover {
     margin-top: 3rem;
     margin-left: 0.9rem;
-    background-color: white;
-    width: auto;
     text-decoration: none;
-    color: black;
     border: solid 0.1rem;
     border-color: white;
+    color: black;
+    background-position: left;
     padding: 2%;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    width: auto;
     font-size: 0.8rem;
   }
 

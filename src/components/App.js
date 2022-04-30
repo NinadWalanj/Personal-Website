@@ -1,5 +1,5 @@
 // viewBox="0 0 1366 695"
-// Change loader, skills-bar, xx-large view problem
+// Change loader, xx-large view problem
 
 import React, { lazy, Suspense } from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";

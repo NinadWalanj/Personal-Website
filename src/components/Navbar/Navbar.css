@@ -1,10 +1,13 @@
+.Navbar-main-div {
+  background-color: transparent !important;
+}
 /* LINKS */
 .logolink {
   text-decoration: none;
   color: white;
   font-size: 0.938rem;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0.063rem;
 }
 .logolink:hover {
@@ -16,7 +19,7 @@
   color: white;
   font-size: 0.938rem;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0.063rem;
 }
 .link1:hover {
@@ -32,7 +35,7 @@
   color: white;
   font-size: 0.938rem;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0.063rem;
 }
 .link2:hover {
@@ -48,7 +51,7 @@
   color: white;
   font-size: 0.938rem;
   line-height: 2rem;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0.063rem;
 }
 .link3:hover {
@@ -63,6 +66,7 @@
 .navbar-toggler {
   color: transparent !important;
   border: none;
+  padding: 0 !important;
 }
 .menu-img {
   height: 2rem;

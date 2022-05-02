@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { motion } from "framer-motion";
+import Fade from "react-reveal/Fade";
 
 export default function Home() {
   return (
@@ -12,13 +13,17 @@ export default function Home() {
     >
       <div className="home-div container">
         <h1 className="home-div-heading">
-          {/* What makes you unique,
-          <span className="home-div-heading-span">makes you successful.</span> */}
-          Be
-          <span className="home-div-heading-span">Unique —</span>
+          <Fade bottom duration={1500}>
+            Be
+          </Fade>
+          <Fade bottom duration={1700}>
+            <span className="home-div-heading-span">Unique —</span>
+          </Fade>
         </h1>
         <p className="home-div-para">
-          Hi, I'm Ninad Walanj · Developer based in 19.0473° N, 73.0699° E
+          <Fade left duration={1700}>
+            Hi, I'm Ninad Walanj · Developer based in 19.0473° N, 73.0699° E
+          </Fade>
         </p>
       </div>
     </motion.div>

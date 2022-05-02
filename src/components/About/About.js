@@ -42,7 +42,7 @@ export default function About() {
                 </span>
                 <span className="about-div-textdiv-second-para-span2">
                   Presently, I am interested in the field of Data Science and
-                  studying for the same. Looking for a Data Science/ Data
+                  studying for the same. Looking for a Data Science / Data
                   Analyst Intern role.
                 </span>
               </p>

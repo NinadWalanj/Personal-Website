@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <div className="Navbar-main-div">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <div className="container mt-sm-3 mt-md-3 mt-lg-3 ">
+        <div className="container">
           <Link className="logolink " to="/">
-            Ninad Walanj
+            NINAD WALANJ
           </Link>
           <button
             className="navbar-toggler"
@@ -24,42 +24,42 @@ export default function Navbar() {
               <Hamburger
                 className="menu-img"
                 color="white"
-                size={"25"}
+                size={25}
                 label="Show menu"
               />
             </span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="navbar-item-1 nav-item me-lg-5 mt-sm-3 mt-md-3 mt-lg-2">
+            <ul className="navbar-nav ms-auto">
+              {/* <li className="navbar-item-1 nav-item me-lg-5 mt-sm-3 mt-md-3 mt-lg-2">
                 <NavLink
                   className="link1"
                   to="/resume"
-                  exact
-                  activeClassName="link1-active"
+                  exact="true"
+                  activeclassname="link1-active"
                 >
                   Resume
                 </NavLink>
-              </li>
-              <li className="navbar-item-2 nav-item me-lg-5 mt-sm-3 mt-md-3 mt-lg-2">
+              </li> */}
+              <li className="navbar-item-2 nav-item ">
                 <NavLink
                   className="link2"
                   to="/about"
-                  exact
-                  activeClassName="link2-active"
+                  exact="true"
+                  activeclassname="link2-active"
                 >
-                  About
+                  ABOUT
                 </NavLink>
               </li>
-              <li className="navbar-item-3 nav-item me-lg-5 mt-sm-3 mt-md-3 mt-lg-2">
+              <li className="navbar-item-3 nav-item">
                 <NavLink
                   className="link3"
                   to="/contact"
-                  exact
-                  activeClassName="link3-active"
+                  exact="true"
+                  activeclassname="link3-active"
                 >
-                  Contact
+                  CONTACT
                 </NavLink>
               </li>
             </ul>

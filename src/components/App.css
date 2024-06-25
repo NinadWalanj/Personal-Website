@@ -6,8 +6,15 @@
 body {
   min-height: 100%;
 }
+@font-face {
+  font-family: "Neue Plak Black";
+  src: url("../assets/fonts/Neue-Plak-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "Circularpro book", sans-serif;
+  font-family: "Neue Plak Black", sans-serif;
   background-color: #141414;
   /* background-color: rgba(255, 0, 0, 0.4); */
   /* background-color: transparent !important; */
@@ -61,3 +68,20 @@ body {
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
 }
+
+/* W3SCHOOLS */
+
+/* X-small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* X-large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

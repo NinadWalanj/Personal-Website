@@ -1,26 +1,30 @@
 .Navbar-main-div {
   background-color: transparent !important;
 }
+
+/* nav container */
+.container {
+  margin-top: 1rem;
+}
+
 /* LINKS */
 .logolink {
   text-decoration: none;
   color: white;
-  font-size: 0.938rem;
+  font-size: 1rem;
   line-height: 2rem;
-  font-weight: bold;
-  letter-spacing: 0.063rem;
+  letter-spacing: 0.15rem;
 }
 .logolink:hover {
   text-decoration: none;
   color: white;
 }
-.link1 {
+/* .link1 {
   text-decoration: none;
   color: white;
-  font-size: 0.938rem;
+  font-size: 1.15rem;
   line-height: 2rem;
-  font-weight: bold;
-  letter-spacing: 0.063rem;
+  letter-spacing: 0.12rem;
 }
 .link1:hover {
   color: white;
@@ -29,14 +33,13 @@
 .link1-active {
   color: white;
   text-decoration: none;
-}
+} */
 .link2 {
   text-decoration: none;
   color: white;
-  font-size: 0.938rem;
+  font-size: 1rem;
   line-height: 2rem;
-  font-weight: bold;
-  letter-spacing: 0.063rem;
+  letter-spacing: 0.15rem;
 }
 .link2:hover {
   color: white;
@@ -49,10 +52,9 @@
 .link3 {
   text-decoration: none;
   color: white;
-  font-size: 0.938rem;
+  font-size: 1rem;
   line-height: 2rem;
-  font-weight: bold;
-  letter-spacing: 0.063rem;
+  letter-spacing: 0.15rem;
 }
 .link3:hover {
   color: white;
@@ -75,17 +77,40 @@
 
 /* XX-Large */
 @media (min-width: 1400px) and (max-width: 6000px) {
+  .navbar-item-2 {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
+  .navbar-item-3 {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
 }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .navbar-item-2 {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
+  .navbar-item-3 {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-item-2 {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
+  .navbar-item-3 {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+  }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
   .nav-item {
-    width: 10%;
     display: inline;
   }
   .navbar-nav {
@@ -123,14 +148,12 @@
     text-decoration: none;
   }
   .link2 {
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
-    line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
     display: inline-block;
-    margin-left: 1.5rem;
     margin-top: 1rem;
     animation-name: test2;
     animation-duration: 0.5s;
@@ -157,12 +180,11 @@
   .link3 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 1rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     animation-name: test3;
     animation-duration: 0.5s;
@@ -230,12 +252,10 @@
   .link2 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 1rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
     display: inline-block;
-    margin-left: 1.5rem;
     margin-top: 1rem;
     animation-name: test2;
     animation-duration: 0.5s;
@@ -262,12 +282,12 @@
   .link3 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 1rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
+    margin-left: 2rem;
     display: inline-block;
-    margin-left: 1.5rem;
+
     margin-top: 1rem;
     animation-name: test3;
     animation-duration: 0.5s;
@@ -295,6 +315,9 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 499px) and (max-width: 575px) {
+  .container {
+    margin-top: 0rem;
+  }
   .Navbar-main-div {
     margin-top: 1rem;
     margin-left: 1rem;
@@ -341,12 +364,10 @@
   .link2 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 0.9rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
     display: inline-block;
-    margin-left: 1.5rem;
     margin-top: 1rem;
     animation-name: test2;
     animation-duration: 0.5s;
@@ -373,12 +394,11 @@
   .link3 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 0.9rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     animation-name: test3;
     animation-duration: 0.5s;
@@ -406,6 +426,9 @@
 
 /* XX-Small devices (portrait phones, less than 499px) */
 @media (min-width: 367px) and (max-width: 498px) {
+  .container {
+    margin-top: 0rem;
+  }
   .Navbar-main-div {
     margin-top: 1rem;
     margin-left: 1rem;
@@ -452,12 +475,10 @@
   .link2 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 0.9rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
     display: inline-block;
-    margin-left: 1.5rem;
     margin-top: 1rem;
     animation-name: test2;
     animation-duration: 0.5s;
@@ -484,12 +505,11 @@
   .link3 {
     text-decoration: none;
     color: white;
-    font-size: 0.938rem;
+    font-size: 0.9rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.15rem;
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-top: 1rem;
     animation-name: test3;
     animation-duration: 0.5s;
@@ -517,6 +537,9 @@
 
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
+  .container {
+    margin-top: 0rem;
+  }
   .Navbar-main-div {
     margin-top: 1rem;
     margin-left: 1rem;
@@ -565,10 +588,8 @@
     color: white;
     font-size: 0.938rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.12rem;
     display: inline-block;
-    margin-left: 1.5rem;
     margin-top: 1rem;
     animation-name: test2;
     animation-duration: 0.5s;
@@ -597,8 +618,7 @@
     color: white;
     font-size: 0.938rem;
     line-height: 2rem;
-    font-weight: 400;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.12rem;
     display: inline-block;
     margin-left: 1.5rem;
     margin-top: 1rem;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { motion } from "framer-motion";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   return (
@@ -13,21 +13,19 @@ export default function Home() {
     >
       <div className="home-div container">
         <h1 className="home-div-heading">
-          <Fade bottom duration={1500}>
-            Be
+          <Fade direction="up" triggerOnce="true" duration={1000}>
+            BE
           </Fade>
-          <Fade bottom duration={1700}>
-            <span className="home-div-heading-span">Unique —</span>
+          <Fade direction="up" triggerOnce="true" duration={1000}>
+            <span className="home-div-heading-span">UNIQUE —</span>
           </Fade>
         </h1>
         <p className="home-div-para">
-          <Fade left duration={1700}>
-            Hi, I'm Ninad Walanj · Developer based in 19.0473° N, 73.0699° E
+          <Fade direction="up" triggerOnce="true" duration={1000}>
+            Hi, I'm Ninad Walanj · Developer based in 43.0481° N, 76.1474° W
           </Fade>
         </p>
       </div>
     </motion.div>
   );
 }
-
-// N19°2'51.845''E73°3'59.132''

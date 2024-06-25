@@ -1,5 +1,15 @@
 .home-div {
-  margin-top: 10rem;
+  margin-top: 9rem;
+}
+@font-face {
+  font-family: "Neue Plak Regular";
+  src: url("../../assets/fonts/Neue-Plak-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home-div-para {
+  font-family: "Neue Plak Regular";
 }
 
 /* XX-Large */
@@ -71,7 +81,7 @@
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .home-div {
-    height: 40vh;
+    height: 35vh;
   }
   .home-div-heading {
     margin-top: 2rem;
@@ -105,7 +115,8 @@
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
   .home-div {
-    height: 47vh;
+    height: 35vh;
+    margin-top: 7rem;
   }
   .home-div-heading {
     margin-top: 2rem;
@@ -138,7 +149,8 @@
 /*  Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767px) {
   .home-div {
-    height: 40vh;
+    height: 35vh;
+    margin-top: 7rem;
   }
   .home-div-heading {
     margin-top: 2rem;
@@ -172,7 +184,8 @@
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 499px) and (max-width: 575px) {
   .home-div {
-    height: 40vh;
+    height: 35vh;
+    margin-top: 7rem;
   }
   .home-div-heading {
     margin-top: 2rem;
@@ -206,6 +219,7 @@
 @media (min-width: 367px) and (max-width: 498px) {
   .home-div {
     height: 41vh;
+    margin-top: 5rem;
   }
   .home-div-heading {
     margin-top: 2rem;
@@ -238,7 +252,8 @@
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
   .home-div {
-    height: auto;
+    height: 41vh;
+    margin-top: 5rem;
   }
   .home-div-heading {
     margin-top: 2rem;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./DelayedFallback.css";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import BeatLoader from "react-spinners/BeatLoader";
 import { motion } from "framer-motion";
 
 const DelayedFallback = () => {
@@ -12,7 +12,8 @@ const DelayedFallback = () => {
       transition={{ duration: 2 }}
     >
       <div className="delayed-feedback-div">
-        <ClimbingBoxLoader color={"white"} size={"0.8rem"} className="loader" />
+        <BeatLoader color={"white"} size={"0.8rem"} className="loader" />
+        {/* size={15} */}
       </div>
     </motion.div>
   );

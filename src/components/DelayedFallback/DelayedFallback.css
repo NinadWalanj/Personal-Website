@@ -1,9 +1,10 @@
 .delayed-feedback-div {
-  position: relative;
-  top: 50vh;
-  left: 50vw;
   display: inline;
-  z-index: 10000;
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* XX-Large */

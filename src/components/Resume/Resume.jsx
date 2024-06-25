@@ -2,7 +2,8 @@ import React from "react";
 import "./Resume.css";
 import { motion } from "framer-motion";
 import resumeFile from "../../assets/resume/My-resume.pdf";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
+
 import js from "../../assets/resume/js.png";
 import html from "../../assets/resume/html.png";
 import git from "../../assets/resume/git.png";
@@ -10,7 +11,8 @@ import python from "../../assets/resume/python.png";
 import databases from "../../assets/resume/database.png";
 import oop from "../../assets/resume/oop.png";
 import mern from "../../assets/resume/mern.png";
-import { LazyImage } from "react-lazy-images";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Resume() {
   return (
@@ -23,12 +25,12 @@ function Resume() {
       <div className="resume container">
         {/* work experience */}
         <div className="resume-workexperience">
-          <Fade left duration={1500}>
+          <Fade direction="left" delay={1500}>
             <h4 className="workexperience-heading">Experience</h4>
           </Fade>
           {/* first subdiv */}
           <div className="workexperience-tablediv row">
-            <Fade bottom duration={1500}>
+            <Fade direction="bottom" delay={1500}>
               <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
                 <p className="workexperience-tablediv-1-para1">
                   WEB DEVELOPMENT INTERN
@@ -37,7 +39,7 @@ function Resume() {
               </div>
             </Fade>
 
-            <Fade bottom duration={1500}>
+            <Fade direction="bottom" delay={1500}>
               <div className="workexperience-tablediv-2 col">
                 <p className="workexperience-tablediv-2-para1">
                   It was a 1 year 4 months internship. Learned a lot about how
@@ -69,7 +71,7 @@ function Resume() {
 
           {/* second subdiv */}
           <div className="workexperience-tablediv row">
-            <Fade bottom duration={1500}>
+            <Fade direction="bottom" delay={1500}>
               <div className="workexperience-tablediv-1 col-sm-12 col-md-12 col-lg-6">
                 <p className="workexperience-tablediv-1-para1">
                   WEB DEVELOPMENT INTERN
@@ -80,7 +82,7 @@ function Resume() {
               </div>
             </Fade>
 
-            <Fade bottom duration={1500}>
+            <Fade direction="bottom" delay={1500}>
               <div className="workexperience-tablediv-2 col">
                 <p className="workexperience-tablediv-2-para1">
                   It was a 1 month internship. This internship helped me in
@@ -102,10 +104,10 @@ function Resume() {
 
         {/* Projects */}
         <div className="resume-projects">
-          <Fade left duration={1500}>
+          <Fade direction="left" delay={1500}>
             <h4 className="projects-heading">Projects</h4>
           </Fade>
-          <Fade bottom duration={1500}>
+          <Fade direction="bottom" delay={1500}>
             <div className="d-flex flex-row flex-nowrap overflow-auto projects-parent-card">
               {/* CARD1 */}
               <a
@@ -138,11 +140,11 @@ function Resume() {
 
         {/* skills */}
         <div className="resume-skills">
-          <Fade left duration={1500}>
+          <Fade direction="left" delay={1500}>
             <h4 className="skills-heading">Skills & Expertise</h4>
           </Fade>
 
-          <Fade bottom duration={1500}>
+          <Fade direction="bottom" delay={1500}>
             <div className="skills-maindiv">
               {/* subdiv1 */}
               <div className="skills-subdiv1">
@@ -151,126 +153,77 @@ function Resume() {
                   alt="html-icon"
                   className="skills-subdiv1-icon"
                 /> */}
-                <LazyImage
+                <LazyLoadImage
                   className="skills-subdiv1-icon"
                   src={html}
                   alt="html-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  effect="blur"
                 />
                 <p className="skills-subdiv1-para">HTML + CSS</p>
               </div>
 
               {/* subdiv2 */}
               <div className="skills-subdiv2">
-                <LazyImage
-                  className="skills-subdiv2-icon"
+                <LazyLoadImage
+                  className="skills-subdiv1-icon"
                   src={js}
-                  alt="js-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  alt="html-icon"
+                  effect="blur"
                 />
                 <p className="skills-subdiv2-para">Javascript</p>
               </div>
 
               {/* subdiv3 */}
               <div className="skills-subdiv3">
-                <LazyImage
-                  className="skills-subdiv3-icon"
+                <LazyLoadImage
+                  className="skills-subdiv1-icon"
                   src={mern}
-                  alt="mern-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  alt="html-icon"
+                  effect="blur"
                 />
                 <p className="skills-subdiv3-para">MERN</p>
               </div>
 
               {/* subdiv4 */}
               <div className="skills-subdiv4">
-                <LazyImage
-                  className="skills-subdiv4-icon"
+                <LazyLoadImage
+                  className="skills-subdiv1-icon"
                   src={git}
-                  alt="git-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  alt="html-icon"
+                  effect="blur"
                 />
                 <p className="skills-subdiv4-para">Git + Github</p>
               </div>
 
               {/* subdiv5 */}
               <div className="skills-subdiv5">
-                <LazyImage
-                  className="skills-subdiv5-icon"
+                <LazyLoadImage
+                  className="skills-subdiv1-icon"
                   src={python}
-                  alt="python-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  alt="html-icon"
+                  effect="blur"
                 />
                 <p className="skills-subdiv5-para">Python</p>
               </div>
 
               {/* subdiv6 */}
               <div className="skills-subdiv6">
-                <LazyImage
-                  className="skills-subdiv6-icon"
+                <LazyLoadImage
+                  className="skills-subdiv1-icon"
                   src={databases}
-                  alt="databases-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  alt="html-icon"
+                  effect="blur"
                 />
                 <p className="skills-subdiv6-para">Databases</p>
               </div>
 
               {/* subdiv7 */}
               <div className="skills-subdiv7">
-                <LazyImage
-                  className="skills-subdiv7-icon"
+                <LazyLoadImage
+                  className="skills-subdiv1-icon"
                   src={oop}
-                  alt="oop-icon"
-                  placeholder={({ imageProps, ref }) => (
-                    <img
-                      ref={ref}
-                      src="/img/porto_buildings_lowres.jpg"
-                      alt={imageProps.alt}
-                    />
-                  )}
-                  actual={({ imageProps }) => <img {...imageProps} />}
+                  alt="html-icon"
+                  effect="blur"
                 />
                 <p className="skills-subdiv7-para">OOP</p>
               </div>
@@ -279,7 +232,7 @@ function Resume() {
         </div>
 
         {/* Github */}
-        <Fade bottom duration={1500}>
+        <Fade direction="bottom" delay={1500}>
           <div className="resume-github ">
             <a
               href="https://github.com/NinadWalanj"

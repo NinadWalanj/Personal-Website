@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Neue Plak Regular";
+  src: url("../../assets/fonts/Neue-Plak-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* XX-Large */
 @media (min-width: 1400px) {
   .footer-div {
@@ -7,7 +14,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 8.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {
@@ -39,14 +46,10 @@
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
   .footer-div {
-    position: relative;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    margin-top: 8.5rem;
+    margin-bottom: 3rem;
     display: block;
     width: 100%;
-    margin-top: 14rem;
-    margin-bottom: 3rem;
   }
   .footer-div-link1 {
     text-decoration: none;
@@ -55,6 +58,7 @@
     line-height: 2rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
+    font-family: "Neue Plak Regular";
   }
   .footer-div-link1:hover {
     color: white;
@@ -68,6 +72,7 @@
     line-height: 2rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
+    font-family: "Neue Plak Regular";
   }
   .footer-div-link2:hover {
     color: white;
@@ -83,7 +88,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 8.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {
@@ -121,7 +126,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 9.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {
@@ -159,7 +164,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 9.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {
@@ -198,7 +203,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 9.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {
@@ -238,7 +243,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 9.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {
@@ -278,7 +283,7 @@
     bottom: 0px;
     display: block;
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 9.5rem;
     margin-bottom: 3rem;
   }
   .footer-div-link1 {

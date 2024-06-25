@@ -1,6 +1,14 @@
+@font-face {
+  font-family: "Neue Plak Regular";
+  src: url("../../assets/fonts/Neue-Plak-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .errorpage {
   color: white;
-  margin-top: 10rem;
+  margin-top: 9rem;
+  font-family: "Neue Plak Regular";
 }
 /* XX-Large */
 @media (min-width: 1400px) {
@@ -160,6 +168,9 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .errorpage {
+    margin-top: 7rem;
+  }
   .errorpage-div-heading {
     width: 80%;
     margin-left: auto;
@@ -212,6 +223,9 @@
 }
 /*  Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767px) {
+  .errorpage {
+    margin-top: 7rem;
+  }
   .errorpage-div-heading {
     width: 100%;
     margin-left: auto;
@@ -247,7 +261,7 @@
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 2%;
+    padding: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
@@ -262,7 +276,7 @@
     color: black;
     border: solid 0.1rem;
     border-color: white;
-    padding: 2%;
+    padding: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
@@ -271,6 +285,9 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 499px) and (max-width: 575px) {
+  .errorpage {
+    margin-top: 7rem;
+  }
   .errorpage-div-heading {
     width: 100%;
     margin-left: auto;
@@ -308,7 +325,7 @@
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 2%;
+    padding: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
@@ -323,7 +340,7 @@
     color: black;
     border: solid 0.1rem;
     border-color: white;
-    padding: 2%;
+    padding: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
@@ -332,6 +349,9 @@
 
 /* XX-Small devices (portrait phones, less than 499px) */
 @media (min-width: 367px) and (max-width: 498px) {
+  .errorpage {
+    margin-top: 5rem;
+  }
   .errorpage-div-heading {
     width: 100%;
     margin-left: auto;
@@ -368,7 +388,7 @@
     color: white;
     border: solid 0.1rem;
     border-color: white;
-    padding: 2%;
+    padding: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
@@ -383,7 +403,7 @@
     color: black;
     border: solid 0.1rem;
     border-color: white;
-    padding: 2%;
+    padding: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
     font-size: 0.8rem;
@@ -392,6 +412,9 @@
 
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
+  .errorpage {
+    margin-top: 5rem;
+  }
   .errorpage-div-heading {
     width: 100%;
     margin-left: auto;

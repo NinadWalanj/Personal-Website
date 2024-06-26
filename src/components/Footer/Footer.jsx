@@ -2,6 +2,8 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer-div container">
       <a
@@ -20,6 +22,10 @@ function Footer() {
       >
         LinkedIn
       </a>
+
+      <p className="footer-div-link3">
+        © {currentYear} Ninad Walanj. All Rights Reserved.
+      </p>
     </div>
   );
 }

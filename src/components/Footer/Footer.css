@@ -4,6 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
+.footer-div {
+  font-family: "Neue Plak Regular";
+  position: relative;
+}
 
 /* XX-Large */
 @media (min-width: 1400px) {
@@ -42,6 +46,18 @@
     color: white;
     text-decoration: none;
   }
+  .footer-div-link3 {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    margin-right: 4rem;
+  }
 }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -58,7 +74,6 @@
     line-height: 2rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
-    font-family: "Neue Plak Regular";
   }
   .footer-div-link1:hover {
     color: white;
@@ -72,20 +87,27 @@
     line-height: 2rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
-    font-family: "Neue Plak Regular";
   }
   .footer-div-link2:hover {
     color: white;
     text-decoration: none;
   }
+  .footer-div-link3 {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    margin-right: 4rem;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .footer-div {
-    position: relative;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
     display: block;
     width: 100%;
     margin-top: 8.5rem;
@@ -115,6 +137,18 @@
   .footer-div-link2:hover {
     color: white;
     text-decoration: none;
+  }
+  .footer-div-link3 {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    margin-right: 4rem;
   }
 }
 /* Medium devices (tablets, less than 992px) */
@@ -154,6 +188,18 @@
     color: white;
     text-decoration: none;
   }
+  .footer-div-link3 {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    margin-right: 2rem;
+  }
 }
 /*  Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -191,6 +237,18 @@
   .footer-div-link2:hover {
     color: white;
     text-decoration: none;
+  }
+  .footer-div-link3 {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    margin-right: 1.5rem;
   }
 }
 
@@ -232,6 +290,9 @@
     color: white;
     text-decoration: none;
   }
+  .footer-div-link3 {
+    display: none;
+  }
 }
 
 /* XX-Small devices (portrait phones, less than 499px) */
@@ -272,6 +333,9 @@
     color: white;
     text-decoration: none;
   }
+  .footer-div-link3 {
+    display: none;
+  }
 }
 
 /* XXX-Small devices (portrait phones, less than 367px) */
@@ -311,5 +375,8 @@
   .footer-div-link2:hover {
     color: white;
     text-decoration: none;
+  }
+  .footer-div-link3 {
+    display: none;
   }
 }

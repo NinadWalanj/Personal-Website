@@ -19,7 +19,9 @@
 /* XX-Large */
 @media (min-width: 1400px) {
   .home-div {
-    height: 35vh;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
   .home-div-heading {
     margin-top: 1rem;
@@ -27,7 +29,7 @@
     margin-left: 3rem;
     color: white;
     width: 35rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
@@ -48,6 +50,28 @@
     letter-spacing: 0.063rem;
     width: 35rem;
   }
+  .home-div-text2 {
+    text-align: center;
+    position: relative;
+  }
+  .home-div-text2-link {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+  }
+  .home-div-text2-link:hover {
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+  }
 }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -62,7 +86,7 @@
     margin-left: 4rem;
     color: white;
     width: auto;
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
@@ -119,7 +143,7 @@
     margin-left: 4rem;
     color: white;
     width: auto;
-    font-size: 4rem;
+    font-size: 3.4rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
@@ -177,7 +201,7 @@
     margin-left: 1rem;
     color: white;
     width: auto;
-    font-size: 4rem;
+    font-size: 2.8rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
@@ -196,7 +220,7 @@
     font-style: italic;
     font-weight: bold;
     letter-spacing: 0.063rem;
-    width: auto;
+    width: 25rem;
   }
   .home-div-text2 {
     text-align: center;
@@ -268,9 +292,9 @@
   .home-div-heading {
     margin-top: 2rem;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 4rem;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
@@ -282,7 +306,7 @@
   .home-div-para {
     display: block;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
     color: white;
     font-size: 0.76rem;
     line-height: 1.875rem;
@@ -307,7 +331,7 @@
     display: inline-block;
     margin-left: 2rem;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
@@ -344,7 +368,7 @@
     display: inline-block;
     margin-left: 2rem;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.063rem;

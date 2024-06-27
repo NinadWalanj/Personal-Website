@@ -16,10 +16,10 @@ export default function Home() {
         <div className="home-div-text1">
           <h1 className="home-div-heading">
             <Fade direction="up" triggerOnce="true" duration={1000}>
-              BE
+              SEEK
             </Fade>
             <Fade direction="up" triggerOnce="true" duration={1000}>
-              <span className="home-div-heading-span">UNIQUE —</span>
+              <span className="home-div-heading-span">DISCOMFORT —</span>
             </Fade>
           </h1>
           <p className="home-div-para">

@@ -162,7 +162,7 @@ export default function Contact() {
             }
           );
 
-          var params = {
+          params = {
             to_email: "walanjninad@gmail.com",
           };
 

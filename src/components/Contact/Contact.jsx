@@ -144,6 +144,7 @@ export default function Contact() {
           // EMAILJS
           var service_id = process.env.REACT_APP_SERVICE_ID;
           var template_id = process.env.REACT_APP_TEMPLATE_ID;
+          var template_id2 = process.env.REACT_APP_TEMPLATE_ID2;
           var user_id = process.env.REACT_APP_USER_ID;
 
           var params = {
@@ -151,8 +152,22 @@ export default function Contact() {
             to_name: firstname,
           };
 
-          // automated email
+          // automated email to the user
           emailjs.send(service_id, template_id, params, user_id).then(
+            (result) => {
+              console.log(result.text);
+            },
+            (error) => {
+              console.log(error.text);
+            }
+          );
+
+          var params = {
+            to_email: "walanjninad@gmail.com",
+          };
+
+          // automated email to ninad
+          emailjs.send(service_id, template_id2, params, user_id).then(
             (result) => {
               console.log(result.text);
             },

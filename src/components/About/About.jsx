@@ -9,12 +9,12 @@ export default function About() {
   return (
     <div className="about-div container">
       {/* IMAGE-DIV */}
-      <Fade direction="up" duration={1000} triggerOnce="true">
+      <Fade direction="up" duration={1500} triggerOnce="true">
         <div className="about-div-imagediv"></div>
       </Fade>
       {/* TEXT-DIV */}
       <div className="about-div-textdiv row">
-        <Fade direction="up" duration={1000} triggerOnce="true">
+        <Fade direction="up" duration={1500} triggerOnce="true">
           <div className="about-div-textdiv-first">
             <p className="about-div-textdiv-first-para1">Personal Contact:</p>
             <p className="about-div-textdiv-first-para2">

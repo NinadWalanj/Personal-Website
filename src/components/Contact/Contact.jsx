@@ -206,11 +206,11 @@ export default function Contact() {
         pauseOnHover
       />
 
-      <Fade direction="left" triggerOnce="true" duration={1000}>
+      <Fade direction="left" triggerOnce="true" duration={1500}>
         <h1 className="contact-div-heading">Hello! Let's work together.</h1>
       </Fade>
 
-      <Fade direction="up" triggerOnce="true" duration={1000}>
+      <Fade direction="up" triggerOnce="true" duration={1500}>
         <div className="contact-div-form-div">
           <form method="post">
             <div className="row contact-div-form-div-subdiv">

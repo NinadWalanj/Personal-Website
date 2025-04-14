@@ -162,19 +162,20 @@ export default function Contact() {
             }
           );
 
-          params = {
-            to_email: "walanjninad@gmail.com",
-          };
+          // CODE ISSUE
+          // params = {
+          //   to_email: "walanjninad@gmail.com",
+          // };
 
-          // automated email to ninad
-          emailjs.send(service_id, template_id2, params, user_id).then(
-            (result) => {
-              console.log(result.text);
-            },
-            (error) => {
-              console.log(error.text);
-            }
-          );
+          // // automated email to ninad
+          // emailjs.send(service_id, template_id2, params, user_id).then(
+          //   (result) => {
+          //     console.log(result.text);
+          //   },
+          //   (error) => {
+          //     console.log(error.text);
+          //   }
+          // );
         })
         .catch((error) => {
           console.error("Error adding document: ", error);

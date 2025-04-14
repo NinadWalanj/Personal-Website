@@ -20,6 +20,8 @@
 @media (min-width: 1400px) {
   .home-div {
     height: auto;
+  }
+  .home-intro {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
@@ -72,11 +74,53 @@
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
   }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 3rem;
+    font-family: "Neue Plak Regular";
+  }
+  .home-work-heading-para {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 65%;
+    letter-spacing: 0.063rem;
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 7vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 7vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 3rem;
+  }
 }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
   .home-div {
     height: auto;
+  }
+  .home-intro {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
@@ -129,14 +173,58 @@
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
   }
+
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 4rem;
+    font-family: "Neue Plak Regular";
+  }
+  .home-work-heading-para {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 65%;
+    letter-spacing: 0.063rem;
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 7vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 7vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 3rem;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .home-div {
     height: auto;
+  }
+  .home-intro {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+
   .home-div-heading {
     margin-top: 1rem;
     display: inline-block;
@@ -186,12 +274,58 @@
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
   }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 4rem;
+    font-family: "Neue Plak Regular";
+  }
+  .home-work-heading-para {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 65%;
+    letter-spacing: 0.063rem;
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 8vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 8vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 3rem;
+  }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* .home-div {
+    height: auto;
+    margin-top: 7rem;
+  } */
   .home-div {
     height: auto;
     margin-top: 7rem;
+  }
+  .home-intro {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
@@ -244,13 +378,59 @@
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
   }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 1rem;
+    font-family: "Neue Plak Regular";
+    font-size: 1.8rem;
+  }
+  .home-work-heading-para {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 85%;
+    letter-spacing: 0.063rem;
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 8vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 8vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 3rem;
+  }
 }
 /*  Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767px) {
-  .home-div {
+  /* .home-div {
     height: 35vh;
     margin-top: 7rem;
+  } */
+  .home-div {
+    height: auto;
+    margin-top: 7rem;
   }
+
   .home-div-heading {
     margin-top: 2rem;
     display: inline-block;
@@ -281,18 +461,60 @@
   .home-div-text2 {
     display: none;
   }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 2rem;
+    font-family: "Neue Plak Regular";
+    font-size: 1.4rem;
+  }
+  .home-work-heading-para {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 75%;
+    letter-spacing: 0.063rem;
+    line-height: 1.75rem;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 8vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 8vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 3rem;
+  }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 499px) and (max-width: 575px) {
   .home-div {
-    height: 35vh;
+    height: auto;
     margin-top: 7rem;
   }
+
   .home-div-heading {
     margin-top: 2rem;
     display: inline-block;
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: white;
     font-size: 2.5rem;
     line-height: 3rem;
@@ -306,7 +528,7 @@
   .home-div-para {
     display: block;
     margin-top: 1rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: white;
     font-size: 0.76rem;
     line-height: 1.875rem;
@@ -318,18 +540,59 @@
   .home-div-text2 {
     display: none;
   }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 2rem;
+    font-family: "Neue Plak Regular";
+    font-size: 1.4rem;
+  }
+  .home-work-heading-para {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 75%;
+    letter-spacing: 0.063rem;
+    line-height: 1.75rem;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 6.5vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 6.5vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 2rem;
+  }
 }
 
 /* XX-Small devices (portrait phones, less than 499px) */
 @media (min-width: 367px) and (max-width: 498px) {
   .home-div {
-    height: 41vh;
+    height: auto;
     margin-top: 5rem;
   }
   .home-div-heading {
     margin-top: 2rem;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: white;
     font-size: 2.1rem;
     line-height: 3rem;
@@ -343,7 +606,7 @@
   .home-div-para {
     display: block;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: white;
     font-size: 0.76rem;
     line-height: 1.875rem;
@@ -354,19 +617,60 @@
   }
   .home-div-text2 {
     display: none;
+  }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 1rem;
+    font-family: "Neue Plak Regular";
+    font-size: 1.3rem;
+  }
+  .home-work-heading-para {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 75%;
+    letter-spacing: 0.063rem;
+    line-height: 1.875rem;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 5vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 5vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 2rem;
   }
 }
 
 /* XXX-Small devices (portrait phones, less than 367px) */
 @media (max-width: 366px) {
   .home-div {
-    height: 41vh;
+    height: auto;
     margin-top: 5rem;
   }
   .home-div-heading {
     margin-top: 2rem;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: white;
     font-size: 2.1rem;
     line-height: 3rem;
@@ -380,7 +684,7 @@
   .home-div-para {
     display: block;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: white;
     font-size: 0.76rem;
     line-height: 1.875rem;
@@ -391,5 +695,46 @@
   }
   .home-div-text2 {
     display: none;
+  }
+  .home-work {
+    margin-top: 9rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .home-work-heading {
+    margin-left: 1rem;
+    font-family: "Neue Plak Regular";
+    font-size: 1.1rem;
+  }
+  .home-work-heading-para {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-family: "Neue Plak Regular";
+    display: inline-block;
+    width: 80%;
+    letter-spacing: 0.063rem;
+    line-height: 1.875rem;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .home-work-carddiv {
+  }
+  .home-work-div1 {
+    text-align: center;
+    height: 4.5vh;
+    background-image: url("../../assets/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .home-work-div2 {
+    text-align: center;
+    height: 4.5vh;
+    background-image: url("../../assets/medium.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 2rem;
   }
 }
